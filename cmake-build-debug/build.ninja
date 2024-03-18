@@ -39,46 +39,79 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/mifta/CLionProjects/untitled/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/mifta/CLionProjects/finki/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target vezba1
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for vezba1
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_vezba1: phony || CMakeFiles/vezba1.dir
 
-build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/mifta/CLionProjects/untitled/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\main.cpp.obj.d
+build CMakeFiles/vezba1.dir/main.cpp.obj: CXX_COMPILER__vezba1_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/main.cpp || cmake_object_order_depends_target_vezba1
+  DEP_FILE = CMakeFiles\vezba1.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\vezba1.dir
+  OBJECT_FILE_DIR = CMakeFiles\vezba1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target vezba1
 
 
 #############################################
-# Link the executable untitled.exe
+# Link the executable vezba1.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj
+build vezba1.exe: CXX_EXECUTABLE_LINKER__vezba1_Debug CMakeFiles/vezba1.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\vezba1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
+  TARGET_FILE = vezba1.exe
+  TARGET_IMPLIB = libvezba1.dll.a
+  TARGET_PDB = vezba1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vezba2
+
+
+#############################################
+# Order-only phony target for vezba2
+
+build cmake_object_order_depends_target_vezba2: phony || CMakeFiles/vezba2.dir
+
+build CMakeFiles/vezba2.dir/vezba2.cpp.obj: CXX_COMPILER__vezba2_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/vezba2.cpp || cmake_object_order_depends_target_vezba2
+  DEP_FILE = CMakeFiles\vezba2.dir\vezba2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\vezba2.dir
+  OBJECT_FILE_DIR = CMakeFiles\vezba2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vezba2
+
+
+#############################################
+# Link the executable vezba2.exe
+
+build vezba2.exe: CXX_EXECUTABLE_LINKER__vezba2_Debug CMakeFiles/vezba2.dir/vezba2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vezba2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vezba2.exe
+  TARGET_IMPLIB = libvezba2.dll.a
+  TARGET_PDB = vezba2.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\mifta\CLionProjects\untitled\cmake-build-debug && "C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\mifta\CLionProjects\finki\cmake-build-debug && "C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +122,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\mifta\CLionProjects\untitled\cmake-build-debug && "C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\mifta\CLionProjects\untitled -BC:\Users\mifta\CLionProjects\untitled\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\mifta\CLionProjects\finki\cmake-build-debug && "C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\mifta\CLionProjects\finki -BC:\Users\mifta\CLionProjects\finki\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled: phony untitled.exe
+build vezba1: phony vezba1.exe
+
+build vezba2: phony vezba2.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +142,9 @@ build untitled: phony untitled.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/mifta/CLionProjects/untitled/cmake-build-debug
+# Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony vezba1.exe vezba2.exe
 
 # =============================================================================
 # Built-in targets
@@ -118,14 +153,14 @@ build all: phony untitled.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mifta/CLionProjects/untitled/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mifta/CLionProjects/finki/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mifta/CLionProjects/untitled/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/mifta/AppData/Local/Programs/CLion$ Nova/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/mifta/CLionProjects/finki/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

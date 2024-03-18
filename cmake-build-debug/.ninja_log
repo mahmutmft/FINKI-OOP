@@ -1,3 +1,8 @@
 # ninja log v5
-7	818	7323957398467630	CMakeFiles/untitled.dir/main.cpp.obj	2f676519ff797074
+6	109	7324347117402226	vezba1.exe	d0df127ebf08b566
 821	993	7323957400188010	untitled.exe	682763f261db6765
+9	524	7324345898622756	CMakeFiles/vezba1.dir/main.cpp.obj	bfb89185b056ec7e
+7	464	7324346669641013	CMakeFiles/vezba1.dir/vezba_2.cpp.obj	5f8deab88bff5bc2
+3	289	7324347182889070	build.ninja	aefbfddcf68a3ec5
+4	471	7324347244285802	CMakeFiles/vezba2.dir/vezba2.cpp.obj	4fcc651ef67ae703
+472	595	7324347245462219	vezba2.exe	e4693446aac471c1

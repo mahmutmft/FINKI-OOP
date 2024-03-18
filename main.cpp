@@ -1,6 +1,12 @@
 #include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    if(a == 2) {
+        cout<<"da be"<<endl;
+    }
+    else {
+        cout<<"da be1"<<endl;
+    }
 }

@@ -3,5 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(untitled main.cpp
-        main.cpp)
+add_executable(vezba1 main.cpp)
+add_executable(vezba2 vezba2.cpp)
