@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "labs1_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs1_1-Debug-c17b4ef2b6db9c039bb9.json",
+					"name" : "labs1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs1_2-Debug-e099b491c3e4aa093f2d.json",
+					"name" : "labs1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs2_1-Debug-043c467cdcd783ab0739.json",
+					"name" : "labs2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs2_2-Debug-ee41379ab512e138d3c7.json",
+					"name" : "labs2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs3_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs3_1-Debug-e2548aa7d202175e4d4b.json",
+					"name" : "labs3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs3_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs3_2-Debug-3825c6c39251cf82cacd.json",
+					"name" : "labs3_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mifta/CLionProjects/finki/cmake-build-debug",
+		"source" : "C:/Users/mifta/CLionProjects/finki"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
