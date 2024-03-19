@@ -9,7 +9,7 @@ struct FootballTeam{
     char imeNaTimot[100];
     FootballPlayer igraci[11];
 };
-void bestTeam(FootballTeam * teams, int n) {
+void bestTeam(FootballTeam *teams, int n) {
     int maxGolovi = -1;
     int najdobarTim = -1;
     for (int i = 0; i < n; i++) {
