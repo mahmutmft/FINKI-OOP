@@ -1,5 +1,8 @@
-C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs3.dir
-C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs2.dir
-C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs1.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs1_1.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs2_1.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs3_1.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs1_2.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs2_2.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs3_2.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
