@@ -41,70 +41,103 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/mifta/CLionProjects/finki/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target vezba1
+# Object build statements for EXECUTABLE target labs3
 
 
 #############################################
-# Order-only phony target for vezba1
+# Order-only phony target for labs3
 
-build cmake_object_order_depends_target_vezba1: phony || CMakeFiles/vezba1.dir
+build cmake_object_order_depends_target_labs3: phony || CMakeFiles/labs3.dir
 
-build CMakeFiles/vezba1.dir/main.cpp.obj: CXX_COMPILER__vezba1_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/main.cpp || cmake_object_order_depends_target_vezba1
-  DEP_FILE = CMakeFiles\vezba1.dir\main.cpp.obj.d
+build CMakeFiles/labs3.dir/Labs2_Online/lab3.cpp.obj: CXX_COMPILER__labs3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs2$ Online/lab3.cpp || cmake_object_order_depends_target_labs3
+  DEP_FILE = CMakeFiles\labs3.dir\Labs2_Online\lab3.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\vezba1.dir
-  OBJECT_FILE_DIR = CMakeFiles\vezba1.dir
+  OBJECT_DIR = CMakeFiles\labs3.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs3.dir\Labs2_Online
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target vezba1
+# Link build statements for EXECUTABLE target labs3
 
 
 #############################################
-# Link the executable vezba1.exe
+# Link the executable labs3.exe
 
-build vezba1.exe: CXX_EXECUTABLE_LINKER__vezba1_Debug CMakeFiles/vezba1.dir/main.cpp.obj
+build labs3.exe: CXX_EXECUTABLE_LINKER__labs3_Debug CMakeFiles/labs3.dir/Labs2_Online/lab3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\vezba1.dir
+  OBJECT_DIR = CMakeFiles\labs3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = vezba1.exe
-  TARGET_IMPLIB = libvezba1.dll.a
-  TARGET_PDB = vezba1.exe.dbg
+  TARGET_FILE = labs3.exe
+  TARGET_IMPLIB = liblabs3.dll.a
+  TARGET_PDB = labs3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target vezba2
+# Object build statements for EXECUTABLE target labs2
 
 
 #############################################
-# Order-only phony target for vezba2
+# Order-only phony target for labs2
 
-build cmake_object_order_depends_target_vezba2: phony || CMakeFiles/vezba2.dir
+build cmake_object_order_depends_target_labs2: phony || CMakeFiles/labs2.dir
 
-build CMakeFiles/vezba2.dir/vezba2.cpp.obj: CXX_COMPILER__vezba2_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/vezba2.cpp || cmake_object_order_depends_target_vezba2
-  DEP_FILE = CMakeFiles\vezba2.dir\vezba2.cpp.obj.d
+build CMakeFiles/labs2.dir/Labs2_Online/lab2.cpp.obj: CXX_COMPILER__labs2_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs2$ Online/lab2.cpp || cmake_object_order_depends_target_labs2
+  DEP_FILE = CMakeFiles\labs2.dir\Labs2_Online\lab2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\vezba2.dir
-  OBJECT_FILE_DIR = CMakeFiles\vezba2.dir
+  OBJECT_DIR = CMakeFiles\labs2.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs2.dir\Labs2_Online
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target vezba2
+# Link build statements for EXECUTABLE target labs2
 
 
 #############################################
-# Link the executable vezba2.exe
+# Link the executable labs2.exe
 
-build vezba2.exe: CXX_EXECUTABLE_LINKER__vezba2_Debug CMakeFiles/vezba2.dir/vezba2.cpp.obj
+build labs2.exe: CXX_EXECUTABLE_LINKER__labs2_Debug CMakeFiles/labs2.dir/Labs2_Online/lab2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\vezba2.dir
+  OBJECT_DIR = CMakeFiles\labs2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = vezba2.exe
-  TARGET_IMPLIB = libvezba2.dll.a
-  TARGET_PDB = vezba2.exe.dbg
+  TARGET_FILE = labs2.exe
+  TARGET_IMPLIB = liblabs2.dll.a
+  TARGET_PDB = labs2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs1
+
+
+#############################################
+# Order-only phony target for labs1
+
+build cmake_object_order_depends_target_labs1: phony || CMakeFiles/labs1.dir
+
+build CMakeFiles/labs1.dir/Labs2_Online/labs1.cpp.obj: CXX_COMPILER__labs1_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs2$ Online/labs1.cpp || cmake_object_order_depends_target_labs1
+  DEP_FILE = CMakeFiles\labs1.dir\Labs2_Online\labs1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs1.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs1.dir\Labs2_Online
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs1
+
+
+#############################################
+# Link the executable labs1.exe
+
+build labs1.exe: CXX_EXECUTABLE_LINKER__labs1_Debug CMakeFiles/labs1.dir/Labs2_Online/labs1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs1.exe
+  TARGET_IMPLIB = liblabs1.dll.a
+  TARGET_PDB = labs1.exe.dbg
 
 
 #############################################
@@ -132,9 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build vezba1: phony vezba1.exe
+build labs1: phony labs1.exe
 
-build vezba2: phony vezba2.exe
+build labs2: phony labs2.exe
+
+build labs3: phony labs3.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +179,7 @@ build vezba2: phony vezba2.exe
 #############################################
 # Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony vezba1.exe vezba2.exe
+build all: phony labs3.exe labs2.exe labs1.exe
 
 # =============================================================================
 # Built-in targets

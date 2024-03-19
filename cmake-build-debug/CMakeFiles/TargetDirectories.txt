@@ -1,4 +1,5 @@
-C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/vezba1.dir
-C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/vezba2.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs3.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs2.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/labs1.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
