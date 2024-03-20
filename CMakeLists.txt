@@ -10,3 +10,4 @@ add_executable(labs3_1 "Labs1 Online/labs3.cpp")
 add_executable(labs1_2 "Labs2 Online/labs1.cpp")
 add_executable(labs2_2 "Labs2 Online/labs2.cpp")
 add_executable(labs3_2 "Labs2 Online/labs3.cpp")
+
