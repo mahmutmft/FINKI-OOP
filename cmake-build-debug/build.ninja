@@ -337,6 +337,72 @@ build ex3.exe: CXX_EXECUTABLE_LINKER__ex3_Debug CMakeFiles/ex3.dir/Zadaci/zadaca
   TARGET_IMPLIB = libex3.dll.a
   TARGET_PDB = ex3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex22
+
+
+#############################################
+# Order-only phony target for ex22
+
+build cmake_object_order_depends_target_ex22: phony || CMakeFiles/ex22.dir
+
+build CMakeFiles/ex22.dir/Zadaci/zadacaLabs.cpp.obj: CXX_COMPILER__ex22_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadacaLabs.cpp || cmake_object_order_depends_target_ex22
+  DEP_FILE = CMakeFiles\ex22.dir\Zadaci\zadacaLabs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex22.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex22.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex22
+
+
+#############################################
+# Link the executable ex22.exe
+
+build ex22.exe: CXX_EXECUTABLE_LINKER__ex22_Debug CMakeFiles/ex22.dir/Zadaci/zadacaLabs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex22.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex22.exe
+  TARGET_IMPLIB = libex22.dll.a
+  TARGET_PDB = ex22.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex6
+
+
+#############################################
+# Order-only phony target for ex6
+
+build cmake_object_order_depends_target_ex6: phony || CMakeFiles/ex6.dir
+
+build CMakeFiles/ex6.dir/Zadaci/zadaca6.cpp.obj: CXX_COMPILER__ex6_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca6.cpp || cmake_object_order_depends_target_ex6
+  DEP_FILE = CMakeFiles\ex6.dir\Zadaci\zadaca6.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex6.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex6.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex6
+
+
+#############################################
+# Link the executable ex6.exe
+
+build ex6.exe: CXX_EXECUTABLE_LINKER__ex6_Debug CMakeFiles/ex6.dir/Zadaci/zadaca6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex6.exe
+  TARGET_IMPLIB = libex6.dll.a
+  TARGET_PDB = ex6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -367,7 +433,11 @@ build ex1: phony ex1.exe
 
 build ex2: phony ex2.exe
 
+build ex22: phony ex22.exe
+
 build ex3: phony ex3.exe
+
+build ex6: phony ex6.exe
 
 build labs1_1: phony labs1_1.exe
 
@@ -389,7 +459,7 @@ build labs3_2: phony labs3_2.exe
 #############################################
 # Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe ex1.exe ex2.exe ex3.exe
+build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe ex1.exe ex2.exe ex3.exe ex22.exe ex6.exe
 
 # =============================================================================
 # Built-in targets
