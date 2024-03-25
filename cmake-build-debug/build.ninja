@@ -403,6 +403,72 @@ build ex6.exe: CXX_EXECUTABLE_LINKER__ex6_Debug CMakeFiles/ex6.dir/Zadaci/zadaca
   TARGET_IMPLIB = libex6.dll.a
   TARGET_PDB = ex6.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target labs1_3
+
+
+#############################################
+# Order-only phony target for labs1_3
+
+build cmake_object_order_depends_target_labs1_3: phony || CMakeFiles/labs1_3.dir
+
+build CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj: CXX_COMPILER__labs1_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs1.cpp || cmake_object_order_depends_target_labs1_3
+  DEP_FILE = CMakeFiles\labs1_3.dir\Labs3_Online\labs1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs1_3.dir\Labs3_Online
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs1_3
+
+
+#############################################
+# Link the executable labs1_3.exe
+
+build labs1_3.exe: CXX_EXECUTABLE_LINKER__labs1_3_Debug CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs1_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs1_3.exe
+  TARGET_IMPLIB = liblabs1_3.dll.a
+  TARGET_PDB = labs1_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs2_3
+
+
+#############################################
+# Order-only phony target for labs2_3
+
+build cmake_object_order_depends_target_labs2_3: phony || CMakeFiles/labs2_3.dir
+
+build CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj: CXX_COMPILER__labs2_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs2.cpp || cmake_object_order_depends_target_labs2_3
+  DEP_FILE = CMakeFiles\labs2_3.dir\Labs3_Online\labs2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs2_3.dir\Labs3_Online
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs2_3
+
+
+#############################################
+# Link the executable labs2_3.exe
+
+build labs2_3.exe: CXX_EXECUTABLE_LINKER__labs2_3_Debug CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs2_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs2_3.exe
+  TARGET_IMPLIB = liblabs2_3.dll.a
+  TARGET_PDB = labs2_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -443,9 +509,13 @@ build labs1_1: phony labs1_1.exe
 
 build labs1_2: phony labs1_2.exe
 
+build labs1_3: phony labs1_3.exe
+
 build labs2_1: phony labs2_1.exe
 
 build labs2_2: phony labs2_2.exe
+
+build labs2_3: phony labs2_3.exe
 
 build labs3_1: phony labs3_1.exe
 
@@ -459,7 +529,7 @@ build labs3_2: phony labs3_2.exe
 #############################################
 # Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe ex1.exe ex2.exe ex3.exe ex22.exe ex6.exe
+build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe ex1.exe ex2.exe ex3.exe ex22.exe ex6.exe labs1_3.exe labs2_3.exe
 
 # =============================================================================
 # Built-in targets

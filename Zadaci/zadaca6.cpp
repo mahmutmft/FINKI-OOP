@@ -5,7 +5,7 @@ using namespace std;
 
 struct Voz {
     char relacija[51];
-    double km;
+    double km;5
     int broj_patnici;
 };
 
