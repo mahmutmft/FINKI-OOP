@@ -1,160 +1,58 @@
-#include <iostream>
-#include <cstring>
-using namespace std;
-
-enum tip {
-	pop, rok, rap
-};
-
-class Pesna {
-private:
-	char ime[50];
-	int minuti;
-	tip kojTip;
-public:
-	Pesna(){}
-	Pesna(char *_ime, int _minuti, tip _kojTip) {
-		strcpy(ime, _ime);
-		minuti = _minuti;
-		kojTip = _kojTip;
-	}
-	char *getIme() {
-		return ime;
-	}
-	int getMinuti() {
-		return minuti;
-	}
-	tip getKojTip() {
-		return kojTip;
-	}
-	char *setIme(char *_ime) {
-		strcpy(ime, _ime);
-	}
-	int setMinuti(int _minuti) {
-		minuti = _minuti;
-	}
-	tip setKojTip(tip _kojTip) {
-		kojTip = _kojTip;
-	}
-	~Pesna(){}
-public:
-	void pecati() {
-		cout<<'"'<< ime <<"-"<< minuti <<"minuti"<<endl;
-	}
-};
-class CD {
-private:
-	Pesna *pesniSnimeni;
-	int pesni;
-	int vremeNaPesni;
-public:
-	CD(int maxVremeNaPesni): vremeNaPesni(maxVremeNaPesni), pesni(0) {
-		vremeNaPesni = maxVremeNaPesni;
-	}
-	Pesna *getPesniSnimeni(){
-		return pesniSnimeni;
-	}
-	int getPesni() {
-		return pesni;
-	}
-	int getVreme() {
-		return vremeNaPesni;
-	}
-	void setPesni(int _pesni) {
-		pesni = _pesni;
-	}
-	void setVreme(int _vremeNaPesni) {
-		vremeNaPesni = _vremeNaPesni;
-	}
-	~CD(){}
-public:
-	void dodadiPesna(Pesna p) {
-		if(pesni<vremeNaPesni) {
-			pesniSnimeni[pesni] = p;
-		}
-		else {
-			cout<<"Nema Mesto"<<endl;
-		}
-	}
-	void pecatiPesniPoTip(tip t) {
-		for(int i=0;i<pesni;i++) {
-			if(pesniSnimeni[i].getKojTip() == t) {
-				pesniSnimeni[i].pecati();
-			}
-		}
-	}
-};
 int main() {
-	// se testira zadacata modularno
-    int testCase;
-    cin >> testCase;
+    char testcase[100];
+    cin.getline(testcase, 100);
 
-	int n, minuti, kojtip;
-	char ime[50];
+    int n;
+    cin >> n;
+    cin.ignore();
 
-	if(testCase == 1) {
-        cout << "===== Testiranje na klasata Pesna ======" << endl;
-        cin >> ime;
-        cin >> minuti;
-        cin >> kojtip; //se vnesuva 0 za POP,1 za RAP i 2 za ROK
-        Pesna p(ime,minuti,(tip)kojtip);
-		p.pecati();
-    } else if(testCase == 2) {
-        cout << "===== Testiranje na klasata CD ======" << endl;
-		CD omileno(20);
-		cin>>n;
-			for (int i=0;i<n;i++){
-				cin >> ime;
-				cin >> minuti;
-				cin >> kojtip; //se vnesuva 0 za POP,1 za RAP i 2 za ROK
-				Pesna p(ime,minuti,(tip)kojtip);
-				omileno.dodadiPesna(p);
-			}
-        	for (int i=0; i<n; i++)
-        		omileno.getPesni()[i].pecati();
-	}
-    else if(testCase == 3) {
-        cout << "===== Testiranje na metodot dodadiPesna() od klasata CD ======" << endl;
-		CD omileno(20);
-		cin>>n;
-			for (int i=0;i<n;i++){
-				cin >> ime;
-				cin >> minuti;
-				cin >> kojtip; //se vnesuva 0 za POP,1 za RAP i 2 za ROK
-				Pesna p(ime,minuti,(tip)kojtip);
-				omileno.dodadiPesna(p);
-			}
-        	for (int i=0; i<omileno.getPesni(); i++)
-				omileno.getPesniSnimeni()[i].pecati();
+    char ignore[100];
+    cin.getline(ignore, 100);
+    UserProfile users[100];
+    for (int i = 0; i < n; ++i) {
+        char name[100];
+        cin >> name;
+        users[i] = UserProfile(name);
     }
-    else if(testCase == 4) {
-        cout << "===== Testiranje na metodot pecatiPesniPoTip() od klasata CD ======" << endl;
-		CD omileno(20);
-		cin>>n;
-			for (int i=0;i<n;i++){
-				cin >> ime;
-				cin >> minuti;
-				cin >> kojtip; //se vnesuva 0 za POP,1 za RAP i 2 za ROK
-				Pesna p(ime,minuti,(tip)kojtip);
-				omileno.dodadiPesna(p);
-			}
-        cin>>kojtip;
-        omileno.pecatiPesniPoTip((tip)kojtip);
 
+    int m;
+    cin >> m;
+    cin.ignore();
+
+    cin.getline(ignore, 100);
+    Achievement achievements[100];
+    for (int i = 0; i < m; ++i) {
+        char name[100], description[100];
+        cin.getline(name, 100);
+        cin.getline(description, 100);
+        achievements[i] = Achievement(name, description);
     }
-    else if(testCase == 5) {
-        cout << "===== Testiranje na metodot pecatiPesniPoTip() od klasata CD ======" << endl;
-		CD omileno(20);
-		cin>>n;
-			for (int i=0;i<n;i++){
-				cin >> ime;
-				cin >> minuti;
-				cin >> kojtip; //se vnesuva 0 za POP,1 za RAP i 2 za ROK
-				Pesna p(ime,minuti,(tip)kojtip);
-				omileno.dodadiPesna(p);
-			}
-        cin>>kojtip;
-        omileno.pecatiPesniPoTip((tip)kojtip);
+
+    int k;
+    cin >> k;
+    cin.ignore();
+
+    cin.getline(ignore, 100);
+    for (int i = 0; i < k; ++i) {
+        int numUser, numAchievement;
+        cin >> numUser >> numAchievement;
+        numUser -= 1;
+        numAchievement -= 1;
+        users[numUser].addAchievement(achievements[numAchievement]);
     }
-return 0;
+
+    if (testcase[8] == 'A') {  // Testing Achievement methods.
+        for (int i = 0; i < m; ++i) {
+            achievements[i].print();
+        }
+        Achievement::incrementTotalUserAchievements();
+    } else if (testcase[8] == 'U') {  // Testing UserProfile methods.
+        for (int i = 0; i < n; ++i) {
+            users[i].print();
+        }
+    } else {  // Testing showAchievementsProgress function.
+        showAchievementsProgress(users, n, achievements, m);
+    }
+
+    return 0;
 }
