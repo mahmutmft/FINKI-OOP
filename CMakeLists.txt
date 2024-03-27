@@ -21,6 +21,12 @@ add_executable(ex6 "Zadaci/zadaca6.cpp")
 add_executable(ex7 "Zadaci/zadaca7.cpp")
 add_executable(ex8 "Zadaci/zadaca8.cpp")
 add_executable(ex10 "Zadaci/zadaca10.cpp")
+add_executable(ex15 "Zadaci/zadaca15.cpp")
+add_executable(ex18 "Zadaci/zadaca18.cpp")
+add_executable(ex20 "Zadaci/zadaca20.cpp")
+add_executable(ex21 "Zadaci/zadaca21.cpp")
+
+
 
 
 

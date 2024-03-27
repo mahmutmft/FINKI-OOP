@@ -13,5 +13,9 @@ C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex6.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex7.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex8.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex10.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex15.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex18.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex20.dir
+C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/ex21.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/mifta/CLionProjects/finki/cmake-build-debug/CMakeFiles/rebuild_cache.dir

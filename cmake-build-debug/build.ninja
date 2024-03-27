@@ -535,6 +535,138 @@ build ex10.exe: CXX_EXECUTABLE_LINKER__ex10_Debug CMakeFiles/ex10.dir/Zadaci/zad
   TARGET_IMPLIB = libex10.dll.a
   TARGET_PDB = ex10.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex15
+
+
+#############################################
+# Order-only phony target for ex15
+
+build cmake_object_order_depends_target_ex15: phony || CMakeFiles/ex15.dir
+
+build CMakeFiles/ex15.dir/Zadaci/zadaca15.cpp.obj: CXX_COMPILER__ex15_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca15.cpp || cmake_object_order_depends_target_ex15
+  DEP_FILE = CMakeFiles\ex15.dir\Zadaci\zadaca15.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex15.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex15.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex15
+
+
+#############################################
+# Link the executable ex15.exe
+
+build ex15.exe: CXX_EXECUTABLE_LINKER__ex15_Debug CMakeFiles/ex15.dir/Zadaci/zadaca15.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex15.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex15.exe
+  TARGET_IMPLIB = libex15.dll.a
+  TARGET_PDB = ex15.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex18
+
+
+#############################################
+# Order-only phony target for ex18
+
+build cmake_object_order_depends_target_ex18: phony || CMakeFiles/ex18.dir
+
+build CMakeFiles/ex18.dir/Zadaci/zadaca18.cpp.obj: CXX_COMPILER__ex18_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca18.cpp || cmake_object_order_depends_target_ex18
+  DEP_FILE = CMakeFiles\ex18.dir\Zadaci\zadaca18.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex18.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex18.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex18
+
+
+#############################################
+# Link the executable ex18.exe
+
+build ex18.exe: CXX_EXECUTABLE_LINKER__ex18_Debug CMakeFiles/ex18.dir/Zadaci/zadaca18.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex18.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex18.exe
+  TARGET_IMPLIB = libex18.dll.a
+  TARGET_PDB = ex18.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex20
+
+
+#############################################
+# Order-only phony target for ex20
+
+build cmake_object_order_depends_target_ex20: phony || CMakeFiles/ex20.dir
+
+build CMakeFiles/ex20.dir/Zadaci/zadaca20.cpp.obj: CXX_COMPILER__ex20_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca20.cpp || cmake_object_order_depends_target_ex20
+  DEP_FILE = CMakeFiles\ex20.dir\Zadaci\zadaca20.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex20.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex20.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex20
+
+
+#############################################
+# Link the executable ex20.exe
+
+build ex20.exe: CXX_EXECUTABLE_LINKER__ex20_Debug CMakeFiles/ex20.dir/Zadaci/zadaca20.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex20.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex20.exe
+  TARGET_IMPLIB = libex20.dll.a
+  TARGET_PDB = ex20.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex21
+
+
+#############################################
+# Order-only phony target for ex21
+
+build cmake_object_order_depends_target_ex21: phony || CMakeFiles/ex21.dir
+
+build CMakeFiles/ex21.dir/Zadaci/zadaca21.cpp.obj: CXX_COMPILER__ex21_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca21.cpp || cmake_object_order_depends_target_ex21
+  DEP_FILE = CMakeFiles\ex21.dir\Zadaci\zadaca21.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex21.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex21.dir\Zadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex21
+
+
+#############################################
+# Link the executable ex21.exe
+
+build ex21.exe: CXX_EXECUTABLE_LINKER__ex21_Debug CMakeFiles/ex21.dir/Zadaci/zadaca21.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex21.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex21.exe
+  TARGET_IMPLIB = libex21.dll.a
+  TARGET_PDB = ex21.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -565,7 +697,15 @@ build ex1: phony ex1.exe
 
 build ex10: phony ex10.exe
 
+build ex15: phony ex15.exe
+
+build ex18: phony ex18.exe
+
 build ex2: phony ex2.exe
+
+build ex20: phony ex20.exe
+
+build ex21: phony ex21.exe
 
 build ex3: phony ex3.exe
 
@@ -599,7 +739,7 @@ build labs3_2: phony labs3_2.exe
 #############################################
 # Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe labs1_3.exe labs2_3.exe ex1.exe ex2.exe ex3.exe ex6.exe ex7.exe ex8.exe ex10.exe
+build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe labs1_3.exe labs2_3.exe ex1.exe ex2.exe ex3.exe ex6.exe ex7.exe ex8.exe ex10.exe ex15.exe ex18.exe ex20.exe ex21.exe
 
 # =============================================================================
 # Built-in targets
