@@ -239,6 +239,72 @@ build labs3_2.exe: CXX_EXECUTABLE_LINKER__labs3_2_Debug CMakeFiles/labs3_2.dir/L
   TARGET_PDB = labs3_2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target labs1_3
+
+
+#############################################
+# Order-only phony target for labs1_3
+
+build cmake_object_order_depends_target_labs1_3: phony || CMakeFiles/labs1_3.dir
+
+build CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj: CXX_COMPILER__labs1_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs1.cpp || cmake_object_order_depends_target_labs1_3
+  DEP_FILE = CMakeFiles\labs1_3.dir\Labs3_Online\labs1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs1_3.dir\Labs3_Online
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs1_3
+
+
+#############################################
+# Link the executable labs1_3.exe
+
+build labs1_3.exe: CXX_EXECUTABLE_LINKER__labs1_3_Debug CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs1_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs1_3.exe
+  TARGET_IMPLIB = liblabs1_3.dll.a
+  TARGET_PDB = labs1_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target labs2_3
+
+
+#############################################
+# Order-only phony target for labs2_3
+
+build cmake_object_order_depends_target_labs2_3: phony || CMakeFiles/labs2_3.dir
+
+build CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj: CXX_COMPILER__labs2_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs2.cpp || cmake_object_order_depends_target_labs2_3
+  DEP_FILE = CMakeFiles\labs2_3.dir\Labs3_Online\labs2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs2_3.dir\Labs3_Online
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs2_3
+
+
+#############################################
+# Link the executable labs2_3.exe
+
+build labs2_3.exe: CXX_EXECUTABLE_LINKER__labs2_3_Debug CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs2_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs2_3.exe
+  TARGET_IMPLIB = liblabs2_3.dll.a
+  TARGET_PDB = labs2_3.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ex1
 
 
@@ -404,70 +470,70 @@ build ex7.exe: CXX_EXECUTABLE_LINKER__ex7_Debug CMakeFiles/ex7.dir/Zadaci/zadaca
   TARGET_PDB = ex7.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target labs1_3
+# Object build statements for EXECUTABLE target ex8
 
 
 #############################################
-# Order-only phony target for labs1_3
+# Order-only phony target for ex8
 
-build cmake_object_order_depends_target_labs1_3: phony || CMakeFiles/labs1_3.dir
+build cmake_object_order_depends_target_ex8: phony || CMakeFiles/ex8.dir
 
-build CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj: CXX_COMPILER__labs1_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs1.cpp || cmake_object_order_depends_target_labs1_3
-  DEP_FILE = CMakeFiles\labs1_3.dir\Labs3_Online\labs1.cpp.obj.d
+build CMakeFiles/ex8.dir/Zadaci/zadaca8.cpp.obj: CXX_COMPILER__ex8_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca8.cpp || cmake_object_order_depends_target_ex8
+  DEP_FILE = CMakeFiles\ex8.dir\Zadaci\zadaca8.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\labs1_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\labs1_3.dir\Labs3_Online
+  OBJECT_DIR = CMakeFiles\ex8.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex8.dir\Zadaci
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target labs1_3
+# Link build statements for EXECUTABLE target ex8
 
 
 #############################################
-# Link the executable labs1_3.exe
+# Link the executable ex8.exe
 
-build labs1_3.exe: CXX_EXECUTABLE_LINKER__labs1_3_Debug CMakeFiles/labs1_3.dir/Labs3_Online/labs1.cpp.obj
+build ex8.exe: CXX_EXECUTABLE_LINKER__ex8_Debug CMakeFiles/ex8.dir/Zadaci/zadaca8.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\labs1_3.dir
+  OBJECT_DIR = CMakeFiles\ex8.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = labs1_3.exe
-  TARGET_IMPLIB = liblabs1_3.dll.a
-  TARGET_PDB = labs1_3.exe.dbg
+  TARGET_FILE = ex8.exe
+  TARGET_IMPLIB = libex8.dll.a
+  TARGET_PDB = ex8.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target labs2_3
+# Object build statements for EXECUTABLE target ex10
 
 
 #############################################
-# Order-only phony target for labs2_3
+# Order-only phony target for ex10
 
-build cmake_object_order_depends_target_labs2_3: phony || CMakeFiles/labs2_3.dir
+build cmake_object_order_depends_target_ex10: phony || CMakeFiles/ex10.dir
 
-build CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj: CXX_COMPILER__labs2_3_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Labs3$ Online/labs2.cpp || cmake_object_order_depends_target_labs2_3
-  DEP_FILE = CMakeFiles\labs2_3.dir\Labs3_Online\labs2.cpp.obj.d
+build CMakeFiles/ex10.dir/Zadaci/zadaca10.cpp.obj: CXX_COMPILER__ex10_unscanned_Debug C$:/Users/mifta/CLionProjects/finki/Zadaci/zadaca10.cpp || cmake_object_order_depends_target_ex10
+  DEP_FILE = CMakeFiles\ex10.dir\Zadaci\zadaca10.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\labs2_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\labs2_3.dir\Labs3_Online
+  OBJECT_DIR = CMakeFiles\ex10.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex10.dir\Zadaci
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target labs2_3
+# Link build statements for EXECUTABLE target ex10
 
 
 #############################################
-# Link the executable labs2_3.exe
+# Link the executable ex10.exe
 
-build labs2_3.exe: CXX_EXECUTABLE_LINKER__labs2_3_Debug CMakeFiles/labs2_3.dir/Labs3_Online/labs2.cpp.obj
+build ex10.exe: CXX_EXECUTABLE_LINKER__ex10_Debug CMakeFiles/ex10.dir/Zadaci/zadaca10.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\labs2_3.dir
+  OBJECT_DIR = CMakeFiles\ex10.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = labs2_3.exe
-  TARGET_IMPLIB = liblabs2_3.dll.a
-  TARGET_PDB = labs2_3.exe.dbg
+  TARGET_FILE = ex10.exe
+  TARGET_IMPLIB = libex10.dll.a
+  TARGET_PDB = ex10.exe.dbg
 
 
 #############################################
@@ -497,6 +563,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build ex1: phony ex1.exe
 
+build ex10: phony ex10.exe
+
 build ex2: phony ex2.exe
 
 build ex3: phony ex3.exe
@@ -504,6 +572,8 @@ build ex3: phony ex3.exe
 build ex6: phony ex6.exe
 
 build ex7: phony ex7.exe
+
+build ex8: phony ex8.exe
 
 build labs1_1: phony labs1_1.exe
 
@@ -529,7 +599,7 @@ build labs3_2: phony labs3_2.exe
 #############################################
 # Folder: C:/Users/mifta/CLionProjects/finki/cmake-build-debug
 
-build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe ex1.exe ex2.exe ex3.exe ex6.exe ex7.exe labs1_3.exe labs2_3.exe
+build all: phony labs1_1.exe labs2_1.exe labs3_1.exe labs1_2.exe labs2_2.exe labs3_2.exe labs1_3.exe labs2_3.exe ex1.exe ex2.exe ex3.exe ex6.exe ex7.exe ex8.exe ex10.exe
 
 # =============================================================================
 # Built-in targets
