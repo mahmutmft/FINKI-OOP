@@ -16,3 +16,6 @@ git clone https://github.com/mahmutmft/FINKI-OOP
 Доколку имате било какви прашања, предлози или препораки, контактирајтеме
 
 Благодарам!
+
+## Лиценца
+[MIT](https://github.com/mahmutmft/FINKI-OOP/blob/main/LICENSE.md)
