@@ -1,5 +1,4 @@
-ToolSet: 11.0 w64 (local)@C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\mingw
-Ninja: 1.11.1@C:\Users\mifta\AppData\Local\Programs\CLion Nova\bin\ninja\win\x64\ninja.exe
+ToolSet: 11.0 w64 (local)@C:\Users\mifta\AppData\Local\Programs\CLion\bin\mingw
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=C:/Users/mifta/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/mifta/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe

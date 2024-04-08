@@ -26,6 +26,7 @@ add_executable(ex18 "Zadaci/zadaca18.cpp")
 add_executable(ex20 "Zadaci/zadaca20.cpp")
 add_executable(ex21 "Zadaci/zadaca21.cpp")
 
+add_executable(zadacaOh "Zadaci/zadacaOh.cpp")
 
 
 
