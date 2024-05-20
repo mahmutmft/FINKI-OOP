@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.cpp.o -o z1 
