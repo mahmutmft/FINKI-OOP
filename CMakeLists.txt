@@ -1,7 +1,19 @@
-add_executable(labs "Labs 8/main.cpp"
+add_executable(labs "Лабораториска вежба 8 група А - од дома/main.cpp"
         "Лабораториска вежба 3 група Б - од дома/main1.cpp")
 
 add_executable(labs1 "Лабораториска вежба 3 група Б - од дома/main1.cpp")
 add_executable(labs2 "Лабораториска вежба 3 група Б - од дома/main2.cpp")
 add_executable(z1 "Задачи за вежбање за прв колоквиум/1.cpp")
 add_executable(z2 "Задачи за вежбање за прв колоквиум/2.cpp")
+
+add_executable(ls1 "Лабораториска вежба 9 група Б - од дома/1.cpp")
+
+add_executable(ls2 "Лабораториска вежба 9 група Б - од дома/2.cpp")
+
+add_executable(ls3 "Лабораториска вежба 9 група Б - од дома/3.cpp")
+
+add_executable(zadaca1 "Задачи за вежбање за втор колоквиум и испити/2.cpp")
+add_executable(zadaca2 "Задачи за вежбање за втор колоквиум и испити/4.cpp")
+add_executable(zadaca3 "Задачи за вежбање за втор колоквиум и испити/6.cpp")
+add_executable(zadaca4 "Задачи за вежбање за втор колоквиум и испити/8.cpp")
+add_executable(zadaca17 "Задачи за вежбање за втор колоквиум и испити/17.cpp")
