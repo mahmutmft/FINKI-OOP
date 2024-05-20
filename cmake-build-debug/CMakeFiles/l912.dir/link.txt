@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic "CMakeFiles/l912.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.o" -o l912 
