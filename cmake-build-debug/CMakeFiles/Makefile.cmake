@@ -52,6 +52,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/labs2.dir/DependInfo.cmake"
   "CMakeFiles/z1.dir/DependInfo.cmake"
   "CMakeFiles/z2.dir/DependInfo.cmake"
+  "CMakeFiles/z32.dir/DependInfo.cmake"
   "CMakeFiles/ls1.dir/DependInfo.cmake"
   "CMakeFiles/ls2.dir/DependInfo.cmake"
   "CMakeFiles/ls3.dir/DependInfo.cmake"
@@ -60,4 +61,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/zadaca3.dir/DependInfo.cmake"
   "CMakeFiles/zadaca4.dir/DependInfo.cmake"
   "CMakeFiles/zadaca17.dir/DependInfo.cmake"
+  "CMakeFiles/mat.dir/DependInfo.cmake"
   )

@@ -237,6 +237,50 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="z32">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 z32"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="z32/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 z32/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ls1">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
@@ -589,6 +633,50 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="mat">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/mat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 mat"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mat/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/mat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 mat/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
 				<Option type="4"/>
@@ -610,6 +698,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/MATRICI.cpp">
+			<Option target="mat"/>
+		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/17.cpp">
 			<Option target="zadaca17"/>
 		</Unit>
@@ -630,6 +721,9 @@
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/2.cpp">
 			<Option target="z2"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/3.cpp">
+			<Option target="z32"/>
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 3 група Б - од дома/main1.cpp">
 			<Option target="labs"/>

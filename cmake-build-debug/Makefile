@@ -182,6 +182,19 @@ z2/fast:
 .PHONY : z2/fast
 
 #=============================================================================
+# Target rules for targets named z32
+
+# Build rule for target.
+z32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 z32
+.PHONY : z32
+
+# fast build rule for target.
+z32/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/build
+.PHONY : z32/fast
+
+#=============================================================================
 # Target rules for targets named ls1
 
 # Build rule for target.
@@ -284,6 +297,43 @@ zadaca17: cmake_check_build_system
 zadaca17/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/build
 .PHONY : zadaca17/fast
+
+#=============================================================================
+# Target rules for targets named mat
+
+# Build rule for target.
+mat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mat
+.PHONY : mat
+
+# fast build rule for target.
+mat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/build
+.PHONY : mat/fast
+
+MATRICI.o: MATRICI.cpp.o
+.PHONY : MATRICI.o
+
+# target to build an object file
+MATRICI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/MATRICI.cpp.o
+.PHONY : MATRICI.cpp.o
+
+MATRICI.i: MATRICI.cpp.i
+.PHONY : MATRICI.i
+
+# target to preprocess a source file
+MATRICI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/MATRICI.cpp.i
+.PHONY : MATRICI.cpp.i
+
+MATRICI.s: MATRICI.cpp.s
+.PHONY : MATRICI.s
+
+# target to generate assembly for a file
+MATRICI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/MATRICI.cpp.s
+.PHONY : MATRICI.cpp.s
 
 Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o
@@ -453,6 +503,30 @@ zadaca17/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s
 
+Задачи_за_вежбање_за_прв_колоквиум/3.o: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.o
+
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
+
+Задачи_за_вежбање_за_прв_колоквиум/3.i: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.i
+
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
+
+Задачи_за_вежбање_за_прв_колоквиум/3.s: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.s
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
+
 Лабораториска_вежба_3_група_Б_-_од_дома/main1.o: Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.o
 
@@ -614,13 +688,18 @@ help:
 	@echo "... ls1"
 	@echo "... ls2"
 	@echo "... ls3"
+	@echo "... mat"
 	@echo "... z1"
 	@echo "... z2"
+	@echo "... z32"
 	@echo "... zadaca1"
 	@echo "... zadaca17"
 	@echo "... zadaca2"
 	@echo "... zadaca3"
 	@echo "... zadaca4"
+	@echo "... MATRICI.o"
+	@echo "... MATRICI.i"
+	@echo "... MATRICI.s"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s"
@@ -642,6 +721,9 @@ help:
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.o"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.i"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.s"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/3.o"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/3.i"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/3.s"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.o"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.i"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.s"

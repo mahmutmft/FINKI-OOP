@@ -68,6 +68,7 @@ all: CMakeFiles/labs1.dir/all
 all: CMakeFiles/labs2.dir/all
 all: CMakeFiles/z1.dir/all
 all: CMakeFiles/z2.dir/all
+all: CMakeFiles/z32.dir/all
 all: CMakeFiles/ls1.dir/all
 all: CMakeFiles/ls2.dir/all
 all: CMakeFiles/ls3.dir/all
@@ -76,6 +77,7 @@ all: CMakeFiles/zadaca2.dir/all
 all: CMakeFiles/zadaca3.dir/all
 all: CMakeFiles/zadaca4.dir/all
 all: CMakeFiles/zadaca17.dir/all
+all: CMakeFiles/mat.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +90,7 @@ clean: CMakeFiles/labs1.dir/clean
 clean: CMakeFiles/labs2.dir/clean
 clean: CMakeFiles/z1.dir/clean
 clean: CMakeFiles/z2.dir/clean
+clean: CMakeFiles/z32.dir/clean
 clean: CMakeFiles/ls1.dir/clean
 clean: CMakeFiles/ls2.dir/clean
 clean: CMakeFiles/ls3.dir/clean
@@ -96,6 +99,7 @@ clean: CMakeFiles/zadaca2.dir/clean
 clean: CMakeFiles/zadaca3.dir/clean
 clean: CMakeFiles/zadaca4.dir/clean
 clean: CMakeFiles/zadaca17.dir/clean
+clean: CMakeFiles/mat.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -183,7 +187,7 @@ CMakeFiles/labs2.dir/clean:
 CMakeFiles/z1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target z1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target z1"
 .PHONY : CMakeFiles/z1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,7 +213,7 @@ CMakeFiles/z1.dir/clean:
 CMakeFiles/z2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target z2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target z2"
 .PHONY : CMakeFiles/z2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,6 +231,32 @@ z2: CMakeFiles/z2.dir/rule
 CMakeFiles/z2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/clean
 .PHONY : CMakeFiles/z2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/z32.dir
+
+# All Build rule for target.
+CMakeFiles/z32.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target z32"
+.PHONY : CMakeFiles/z32.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/z32.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/z32.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/z32.dir/rule
+
+# Convenience name for target.
+z32: CMakeFiles/z32.dir/rule
+.PHONY : z32
+
+# clean rule for target.
+CMakeFiles/z32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/clean
+.PHONY : CMakeFiles/z32.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ls1.dir
@@ -313,7 +343,7 @@ CMakeFiles/ls3.dir/clean:
 CMakeFiles/zadaca1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target zadaca1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target zadaca1"
 .PHONY : CMakeFiles/zadaca1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -339,7 +369,7 @@ CMakeFiles/zadaca1.dir/clean:
 CMakeFiles/zadaca2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target zadaca2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target zadaca2"
 .PHONY : CMakeFiles/zadaca2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +395,7 @@ CMakeFiles/zadaca2.dir/clean:
 CMakeFiles/zadaca3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target zadaca3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target zadaca3"
 .PHONY : CMakeFiles/zadaca3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +421,7 @@ CMakeFiles/zadaca3.dir/clean:
 CMakeFiles/zadaca4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target zadaca4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target zadaca4"
 .PHONY : CMakeFiles/zadaca4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +447,7 @@ CMakeFiles/zadaca4.dir/clean:
 CMakeFiles/zadaca17.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target zadaca17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target zadaca17"
 .PHONY : CMakeFiles/zadaca17.dir/all
 
 # Build rule for subdir invocation for target.
@@ -435,6 +465,32 @@ zadaca17: CMakeFiles/zadaca17.dir/rule
 CMakeFiles/zadaca17.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/clean
 .PHONY : CMakeFiles/zadaca17.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mat.dir
+
+# All Build rule for target.
+CMakeFiles/mat.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target mat"
+.PHONY : CMakeFiles/mat.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/mat.dir/rule
+
+# Convenience name for target.
+mat: CMakeFiles/mat.dir/rule
+.PHONY : mat
+
+# clean rule for target.
+CMakeFiles/mat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mat.dir/build.make CMakeFiles/mat.dir/clean
+.PHONY : CMakeFiles/mat.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
