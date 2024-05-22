@@ -221,6 +221,32 @@ z322/fast:
 .PHONY : z322/fast
 
 #=============================================================================
+# Target rules for targets named z3226
+
+# Build rule for target.
+z3226: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 z3226
+.PHONY : z3226
+
+# fast build rule for target.
+z3226/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/build
+.PHONY : z3226/fast
+
+#=============================================================================
+# Target rules for targets named z12
+
+# Build rule for target.
+z12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 z12
+.PHONY : z12
+
+# fast build rule for target.
+z12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z12.dir/build.make CMakeFiles/z12.dir/build
+.PHONY : z12/fast
+
+#=============================================================================
 # Target rules for targets named ls1
 
 # Build rule for target.
@@ -467,6 +493,54 @@ zadaca17/fast:
 Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s
+
+Задачи_за_вежбање_за_прв_колоквиум/11.o: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.o
+
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
+
+Задачи_за_вежбање_за_прв_колоквиум/11.i: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.i
+
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
+
+Задачи_за_вежбање_за_прв_колоквиум/11.s: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.s
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
+
+Задачи_за_вежбање_за_прв_колоквиум/12.o: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.o
+
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z12.dir/build.make CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
+
+Задачи_за_вежбање_за_прв_колоквиум/12.i: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.i
+
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z12.dir/build.make CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
+
+Задачи_за_вежбање_за_прв_колоквиум/12.s: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.s
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z12.dir/build.make CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
+.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
 
 Задачи_за_вежбање_за_прв_колоквиум/2.o: Задачи_за_вежбање_за_прв_колоквиум/2.cpp.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.o
@@ -726,10 +800,12 @@ help:
 	@echo "... ls2"
 	@echo "... ls3"
 	@echo "... z1"
+	@echo "... z12"
 	@echo "... z2"
 	@echo "... z32"
 	@echo "... z321"
 	@echo "... z322"
+	@echo "... z3226"
 	@echo "... zadaca1"
 	@echo "... zadaca17"
 	@echo "... zadaca2"
@@ -753,6 +829,12 @@ help:
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/1.o"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/1.i"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/1.s"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/11.o"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/11.i"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/11.s"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/12.o"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/12.i"
+	@echo "... Задачи_за_вежбање_за_прв_колоквиум/12.s"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.o"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.i"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/2.s"
