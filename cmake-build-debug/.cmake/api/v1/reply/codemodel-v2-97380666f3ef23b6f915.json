@@ -28,7 +28,10 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20
 					]
 				}
 			],
@@ -60,7 +63,10 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20
 					]
 				}
 			],
@@ -90,22 +96,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ls1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ls1-Debug-bd9886cdf6d84fce8e26.json",
+					"jsonFile" : "target-ls1-Debug-528f1bd0206af22e513f.json",
 					"name" : "ls1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ls2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ls2-Debug-473b0240bf2116446f7b.json",
+					"jsonFile" : "target-ls2-Debug-9fe8ab9a94ebf209a1bc.json",
 					"name" : "ls2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ls3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ls3-Debug-4356c41fbe7e89d1007f.json",
+					"jsonFile" : "target-ls3-Debug-b539e1b00f37282fbdda.json",
 					"name" : "ls3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testPrograma::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testPrograma-Debug-33fa1c3794a9354a8a7e.json",
+					"name" : "testPrograma",
 					"projectIndex" : 0
 				},
 				{
@@ -117,9 +130,16 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "z12::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-z12-Debug-bde74652ef4d2b97091f.json",
-					"name" : "z12",
+					"id" : "z121::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z121-Debug-ce2c13ece48299c40ba6.json",
+					"name" : "z121",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z1213::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z1213-Debug-4d8e17a1185893083d51.json",
+					"name" : "z1213",
 					"projectIndex" : 0
 				},
 				{
@@ -160,35 +180,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "zadaca1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadaca1-Debug-90d3d33916d4ebd349e2.json",
+					"jsonFile" : "target-zadaca1-Debug-e6c93587598d4edca5d4.json",
 					"name" : "zadaca1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "zadaca12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca12-Debug-de06e2f6eb35fe0f55c5.json",
+					"name" : "zadaca12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "zadaca17::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadaca17-Debug-fd5dfdf1f554f9965718.json",
+					"jsonFile" : "target-zadaca17-Debug-09fca9c1e1b919b7731d.json",
 					"name" : "zadaca17",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadaca2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadaca2-Debug-a52e77b4b3917b986041.json",
+					"jsonFile" : "target-zadaca2-Debug-a6af572664e588b735a9.json",
 					"name" : "zadaca2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadaca3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadaca3-Debug-4002fbe81ff12dbc35cd.json",
+					"jsonFile" : "target-zadaca3-Debug-fcc7f5c4374fab87bea3.json",
 					"name" : "zadaca3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadaca4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadaca4-Debug-eb93fcebd1596535165d.json",
+					"jsonFile" : "target-zadaca4-Debug-c81e3bec4f9515713bbd.json",
 					"name" : "zadaca4",
 					"projectIndex" : 0
 				}

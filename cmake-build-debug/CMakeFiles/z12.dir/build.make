@@ -69,28 +69,28 @@ include CMakeFiles/z12.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/z12.dir/flags.make
 
-CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o: CMakeFiles/z12.dir/flags.make
-CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/12.cpp
-CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o: CMakeFiles/z12.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o -MF CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o.d -o CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/12.cpp"
+CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o: CMakeFiles/z12.dir/flags.make
+CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/121.cpp
+CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o: CMakeFiles/z12.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o -MF CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o.d -o CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/121.cpp"
 
-CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/12.cpp" > CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
+CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/121.cpp" > CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.i
 
-CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/12.cpp" -o CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
+CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/121.cpp" -o CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.s
 
 # Object files for target z12
 z12_OBJECTS = \
-"CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o"
+"CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o"
 
 # External object files for target z12
 z12_EXTERNAL_OBJECTS =
 
-z12: CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
+z12: CMakeFiles/z12.dir/Задачи_за_вежбање_за_прв_колоквиум/121.cpp.o
 z12: CMakeFiles/z12.dir/build.make
 z12: CMakeFiles/z12.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable z12"

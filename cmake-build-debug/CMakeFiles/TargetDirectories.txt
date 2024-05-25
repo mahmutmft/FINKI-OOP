@@ -7,7 +7,8 @@
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z321.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z322.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z3226.dir
-/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z12.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z121.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/z1213.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/ls1.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/ls2.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/ls3.dir
@@ -16,5 +17,7 @@
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca3.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca4.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca17.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/testPrograma.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca12.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

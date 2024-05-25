@@ -1,92 +1,89 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
 class Vozac {
 protected:
-    string ime;
+    char ime[100];
     int vozrast;
-    int brojTrki;
+    int brTrki;
     bool isVeteran;
 public:
-    Vozac(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false) {
-        this->ime = ime;
+    Vozac(char *ime = " ", int vozrast = 0, int brTrki = 0, bool isVeteran = false) {
+        strcpy(this->ime, ime);
         this->vozrast = vozrast;
-        this->brojTrki = brojTrki;
+        this->brTrki = brTrki;
         this->isVeteran = isVeteran;
     }
 
-    virtual float zarabotuvachka() const = 0;
-
-    virtual float danok() const = 0;
-
-    bool operator==(const Vozac &p) const {
-        return this->zarabotuvachka() == p.zarabotuvachka();
+    friend ostream &operator<<(ostream &out, const Vozac &p) {
+        out << p.ime << endl;
+        out << p.vozrast << endl;
+        out << p.brTrki << endl;
+        if (p.isVeteran) {
+            out << "VETERAN" << endl;
+        }
+        return out;
     }
 
-    friend ostream &operator<<(ostream &o, const Vozac &p) {
-        o << p.ime << endl;
-        o << p.vozrast << endl;
-        o << p.brojTrki << endl;
-        if (p.isVeteran) {
-            o << "VETERAN" << endl;
-        }
-        return o;
+    virtual double zarabotuvacka() const = 0;
+
+    virtual double danok() const = 0;
+
+    bool operator==(const Vozac &p){
+        return this->zarabotuvacka() == p.zarabotuvacka();
     }
 };
 
 class Avtomobilist : public Vozac {
 protected:
-    float cenaNaAvtomobil;
+    double cenaAvtomobil;
 public:
-    Avtomobilist(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false,
-                 float cenaNaAvtomobil = 0)
-            : Vozac(ime, vozrast, brojTrki, isVeteran) {
-        this->cenaNaAvtomobil = cenaNaAvtomobil;
+    Avtomobilist(char *ime = " ", int vozrast = 0, int brTrki = 0, bool isVeteran = false, double cenaAvtomobil = 0)
+            : Vozac(ime, vozrast, brTrki, isVeteran) {
+        this->cenaAvtomobil = cenaAvtomobil;
     }
 
-    float zarabotuvachka() const{
-        return cenaNaAvtomobil / 5;
+    double zarabotuvacka() const {
+        return cenaAvtomobil / 5;
     }
 
-    float danok() const{
-        if(brojTrki > 10){
-            return zarabotuvachka() * 0.15;
-        }
-        else{
-            return zarabotuvachka() * 0.1;
+    double danok() const {
+        if (brTrki > 10)  {
+            return zarabotuvacka() * 0.15;
+        } else {
+            return zarabotuvacka() * 0.1;
         }
     }
 };
 
 class Motociklist : public Vozac {
 protected:
-    int hp;
+    int moknosMotor;
 public:
-    Motociklist(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false, int hp = 0)
-            : Vozac(ime, vozrast, brojTrki, isVeteran) {
-        this->hp = hp;
+    Motociklist(char *ime = " ", int vozrast = 0, int brTrki = 0, bool isVeteran = false, int moknosMotor = 0)
+            : Vozac(ime, vozrast, brTrki, isVeteran) {
+        this->moknosMotor = moknosMotor;
     }
 
-    float zarabotuvachka() const {
-        return hp * 20;
+    double zarabotuvacka() const {
+        return moknosMotor * 20;
     }
 
-    float danok() const {
-
-        if(isVeteran){
-            return zarabotuvachka() * 0.25;
-        }
-        else{
-            return zarabotuvachka() * 0.2;
+    double danok() const {
+        if (isVeteran) {
+            return zarabotuvacka() * 0.25;
+        } else {
+            return zarabotuvacka() * 0.2;
         }
     }
 };
 
-int soIstaZarabotuvachka(Vozac **vozaci, int broj, Vozac *vozac){
+int soIstaZarabotuvachka(Vozac **niza , int n, Vozac *b){
     int index = 0;
-    for(int i=0;i<broj;i++){
-        if(*vozaci[i] == *vozac){
+    for(int i=0;i<n;i++){
+        if(*niza[i] == *b){
             index++;
         }
     }
@@ -125,7 +122,7 @@ int main() {
     cout << "=== VOZAC X ===" << endl;
     cout << *vx;
     cout << "=== SO ISTA ZARABOTUVACKA KAKO VOZAC X ===" << endl;
-    cout << soIstaZarabotuvachka(v, n, vx);
+      cout << soIstaZarabotuvachka(v, n, vx);
     for (int i = 0; i < n; ++i) {
         delete v[i];
     }
