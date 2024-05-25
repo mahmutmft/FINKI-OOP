@@ -1,48 +1,69 @@
-#include <cstring>
 #include <iostream>
+#include <cstring>
 
 using namespace std;
+
+
+class Pizza {
+protected:
+    char ime[20];
+    char sostojki[100];
+    double cena;
+public:
+    double getCena() {
+        return cena;
+    }
+
+public:
+    Pizza(char *ime = " ", char *sostojki = " ", int cena = 0) {
+        strcpy(this->ime, ime);
+        strcpy(this->sostojki, sostojki);
+        this->cena = cena;
+    }
+
+    virtual double price() = 0;
+
+    bool operator<(Pizza &p) {
+        return this->price() < p.price();
+    }
+
+    friend ostream &operator<<(ostream &out, Pizza &p);
+};
+
 enum Size {
     mala, golema, familijarna
 };
 
-class Pizza {
+class FlatPizza : public Pizza {
 protected:
-    string ime;
-    string sostojki;
-    double cena;
+    Size golemina;
 public:
-    Pizza(const string ime = "", const string sostojki = " ", double cena = 0) {
-        this->ime = ime;
-        this->sostojki = sostojki;
-        this->cena = cena;
-    }
-
-    virtual double price() const = 0;
-};
-
-class FlatPizza : virtual public Pizza {
-protected:
-    Size picaSize;
-public:
-    FlatPizza(const string ime = "", const string sostojki = " ", double cena = 0, Size picaSize = Size(mala))
+    FlatPizza(char *ime = " ", char *sostojki = " ", int cena = 0, Size golemina = Size(mala))
             : Pizza(ime, sostojki, cena) {
-        this->picaSize = picaSize;
+        this->golemina = golemina;
     }
 
-    double price() {
-        if (picaSize == 0) {
-            return cena * 0.1;
-        } else if (picaSize == 1) {
-            return cena * 0.2;
+    double price() override {
+        if (golemina == 0) {
+            return cena * 1.10;
+        } else if (golemina == 1) {
+            return cena * 1.20;
         } else {
-            return cena * 0.3;
+            return cena * 1.30;
         }
     }
 
-    friend ostream &operator<<(ostream &o, const FlatPizza &p) {
-        o << p.ime << ": " << p.sostojki << ", " << p.picaSize << " - " << p.cena;
-        return o;
+    friend ostream &operator<<(ostream &out, FlatPizza &p) {
+        out << p.ime << ": " << p.sostojki << ", ";
+        if (p.golemina == 0) {
+            out << "small" << " - ";
+        } else if (p.golemina == 1) {
+            out << "large" << " - ";
+        } else {
+            out << "family" << " - ";
+        }
+        out << p.price() << endl;
+        return out;
     }
 
 };
@@ -51,40 +72,58 @@ class FoldedPizza : public Pizza {
 protected:
     bool isBeloBrashno;
 public:
-    FoldedPizza(const string ime = "", const string sostojki = " ", double cena = 0)
+    void setWhiteFlour(bool brashno) {
+        this->isBeloBrashno = brashno;
+    }
+
+    FoldedPizza(char *ime = " ", char *sostojki = " ", int cena = 0)
             : Pizza(ime, sostojki, cena) {
+        this->isBeloBrashno = true;
     }
 
-    void setWhiteFlour(bool isBeloBrashno) {
-        FoldedPizza::isBeloBrashno = isBeloBrashno;
-    }
-
-    double price() {
+    double price() override {
+        double belo = 0;
         if (isBeloBrashno) {
-            return cena * 0.1;
+            belo = cena * 1.10;
         } else {
-            return cena * 0.3;
+            belo = cena * 1.30;
         }
+        return belo;
     }
 
-    friend ostream &operator<<(ostream &out, const FoldedPizza &p) {
+    friend ostream &operator<<(ostream &out, FoldedPizza &p) {
         out << p.ime << ": " << p.sostojki << ", ";
-        if (isBeloBrashno) {
+        if (p.isBeloBrashno) {
             out << "wf";
         } else {
             out << "nwf";
         }
-        out << " - " << p.cena;
+        out << " - " << p.price();
+        out << endl;
         return out;
     }
 
 };
-bool operator<(const FoldedPizza &p1, const FlatPizza &p2) {
-    return p1.price()
+
+void expensivePizza(Pizza **niza, int n) {
+    int index = 0;
+    double max = niza[0]->price();
+    for (int i = 1; i < n; i++) {
+        if (niza[i]->price() > max) {
+            max = niza[i]->price();
+            index = i;
+        }
+    }
+    cout << *niza[index];
 }
 
-bool operator<(const FlatPizza *p1, const FlatPizza *p2){
-    return p1->price() < p2->price();
+ostream &operator<<(ostream &out, Pizza &p) {
+    if (FoldedPizza *fold = dynamic_cast<FoldedPizza *>(&p)) {
+        out << *fold;
+    } else if (FlatPizza *flat = dynamic_cast<FlatPizza *>(&p)) {
+        out << *flat;
+    }
+    return out;
 }
 
 int main() {

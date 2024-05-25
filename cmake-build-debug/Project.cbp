@@ -941,6 +941,94 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="zadac5k2">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac5k2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadac5k2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zadac5k2/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac5k2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadac5k2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zadac13k2">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac13k2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadac13k2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zadac13k2/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac13k2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadac13k2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
 				<Option type="4"/>
@@ -968,6 +1056,9 @@
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/1.cpp">
 			<Option target="zadaca12"/>
 		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/13.cpp">
+			<Option target="zadac13k2"/>
+		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/17.cpp">
 			<Option target="zadaca17"/>
 		</Unit>
@@ -976,6 +1067,9 @@
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/4.cpp">
 			<Option target="zadaca2"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/5.cpp">
+			<Option target="zadac5k2"/>
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/6.cpp">
 			<Option target="zadaca3"/>
