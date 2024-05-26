@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o -o zadaca14k2 

@@ -415,6 +415,32 @@ zadac13k2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/build
 .PHONY : zadac13k2/fast
 
+#=============================================================================
+# Target rules for targets named zadaca14k2
+
+# Build rule for target.
+zadaca14k2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadaca14k2
+.PHONY : zadaca14k2
+
+# fast build rule for target.
+zadaca14k2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/build
+.PHONY : zadaca14k2/fast
+
+#=============================================================================
+# Target rules for targets named zadaca15k2
+
+# Build rule for target.
+zadaca15k2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadaca15k2
+.PHONY : zadaca15k2
+
+# fast build rule for target.
+zadaca15k2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/build
+.PHONY : zadaca15k2/fast
+
 testPrograma.o: testPrograma.cpp.o
 .PHONY : testPrograma.o
 
@@ -486,6 +512,54 @@ testPrograma.cpp.s:
 Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o
+
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i
+
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o
+
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i
+
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
+
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
 
 Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o
@@ -997,6 +1071,8 @@ help:
 	@echo "... zadac5k2"
 	@echo "... zadaca1"
 	@echo "... zadaca12"
+	@echo "... zadaca14k2"
+	@echo "... zadaca15k2"
 	@echo "... zadaca17"
 	@echo "... zadaca2"
 	@echo "... zadaca3"
@@ -1010,6 +1086,12 @@ help:
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.o"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.i"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.s"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s"

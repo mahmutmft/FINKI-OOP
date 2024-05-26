@@ -143,12 +143,13 @@ public:
 };
 
 ostream &operator<<(ostream &out, const Folder &p) {
-    out << p.imeFolder << endl;
+    out << p.imeFolder <<" "<<p.imeKorisnik<<endl;
     out << "--" << endl;
     for (int i = 0; i < p.n; i++) {
         out << *p.niza[i] << endl;
     }
-    out << "Folder size: " << p.n << endl;
+    cout<<"--"<<endl;
+    cout << "Folder size: " << p.n << endl;
     return out;
 }
 

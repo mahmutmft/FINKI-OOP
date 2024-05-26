@@ -14,7 +14,7 @@ public:
             this->golovi[i] = golovi[i];
         }
     }
-    uspeh
+
 };
 
 class Klub : public FudbalskaEkipa {

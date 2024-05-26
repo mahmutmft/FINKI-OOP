@@ -23,3 +23,6 @@ add_executable(testPrograma "testPrograma.cpp")
 add_executable(zadaca12 "Задачи за вежбање за втор колоквиум и испити/1.cpp")
 add_executable(zadac5k2 "Задачи за вежбање за втор колоквиум и испити/5.cpp")
 add_executable(zadac13k2 "Задачи за вежбање за втор колоквиум и испити/13.cpp")
+add_executable(zadaca14k2 "Задачи за вежбање за втор колоквиум и испити/14.cpp")
+add_executable(zadaca15k2 "Задачи за вежбање за втор колоквиум и испити/15.cpp")
+
