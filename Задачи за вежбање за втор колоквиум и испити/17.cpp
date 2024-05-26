@@ -1,58 +1,17 @@
 #include <iostream>
 #include <cstring>
-
 using namespace std;
 
-class FudbalskaEkipa {
+class FudblaskaEkipa{
 protected:
     char trener[100];
-    int golovi[10];
-public:
-    FudbalskaEkipa(char *trener = " ", int *golovi = 0) {
-        strcpy(this->trener, trener);
-        for (int i = 0; i < 10; i++) {
-            this->golovi[i] = golovi[i];
-        }
-    }
 
-};
-
-class Klub : public FudbalskaEkipa {
-protected:
-    char ime[100];
-    int tituli;
-public:
-    Klub(char *trener = " ", int *golovi = 0, char *ime = " ", int tituli = 0) : FudbalskaEkipa(trener,golovi) {
-        strcpy(this->ime, ime);
-        this->tituli = tituli;
-    }
-    friend ostream &operator<<(ostream &out, const Klub &p){
-        out<<p.ime<<endl;
-        out<<p.trener<<endl;
-        return out;
-    }
-};
-
-class Reprezentacija : public FudbalskaEkipa {
-protected:
-    char drzava[100];
-    int nastapi;
-public:
-    Reprezentacija(char *trener = " ", int *golovi = 0, char *drzava = " ", int nastapi = 0) : FudbalskaEkipa(trener,golovi){
-        strcpy(this->drzava, drzava);
-        this->nastapi = nastapi;
-    }
-    friend ostream &operator<<(ostream &out, const Reprezentacija &p){
-        out<<p.drzava<<endl;
-        out<<p.trener<<endl;
-        return out;
-    }
 };
 
 int main() {
     int n;
     cin >> n;
-    FudbalskaEkipa **ekipi = new FudbalskaEkipa *[n];
+    FudbalskaEkipa **ekipi = new FudbalskaEkipa*[n];
     char coach[100];
     int goals[10];
     char x[100];
@@ -94,6 +53,6 @@ int main() {
     for (int i = 0; i < n; ++i) {
         delete ekipi[i];
     }
-    delete[] ekipi;
+    delete [] ekipi;
     return 0;
 }

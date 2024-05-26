@@ -25,4 +25,5 @@ add_executable(zadac5k2 "Задачи за вежбање за втор коло
 add_executable(zadac13k2 "Задачи за вежбање за втор колоквиум и испити/13.cpp")
 add_executable(zadaca14k2 "Задачи за вежбање за втор колоквиум и испити/14.cpp")
 add_executable(zadaca15k2 "Задачи за вежбање за втор колоквиум и испити/15.cpp")
+add_executable(zadaca16k2 "Задачи за вежбање за втор колоквиум и испити/16.cpp")
 
