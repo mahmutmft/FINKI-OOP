@@ -73,4 +73,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/zadaca14k2.dir/DependInfo.cmake"
   "CMakeFiles/zadaca15k2.dir/DependInfo.cmake"
   "CMakeFiles/zadaca16k2.dir/DependInfo.cmake"
+  "CMakeFiles/zadaac1z9.dir/DependInfo.cmake"
+  "CMakeFiles/zadaac1z92.dir/DependInfo.cmake"
   )

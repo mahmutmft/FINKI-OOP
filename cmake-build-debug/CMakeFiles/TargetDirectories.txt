@@ -24,5 +24,7 @@
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca14k2.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca15k2.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaca16k2.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaac1z9.dir
+/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/zadaac1z92.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

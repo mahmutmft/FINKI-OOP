@@ -454,6 +454,32 @@ zadaca16k2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/build
 .PHONY : zadaca16k2/fast
 
+#=============================================================================
+# Target rules for targets named zadaac1z9
+
+# Build rule for target.
+zadaac1z9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadaac1z9
+.PHONY : zadaac1z9
+
+# fast build rule for target.
+zadaac1z9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/build
+.PHONY : zadaac1z9/fast
+
+#=============================================================================
+# Target rules for targets named zadaac1z92
+
+# Build rule for target.
+zadaac1z92: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadaac1z92
+.PHONY : zadaac1z92
+
+# fast build rule for target.
+zadaac1z92/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/build
+.PHONY : zadaac1z92/fast
+
 testPrograma.o: testPrograma.cpp.o
 .PHONY : testPrograma.o
 
@@ -934,6 +960,78 @@ testPrograma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s
 
+Лабораториска_вежба_10_група_A_-_од_дома/1.o: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.o
+
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
+
+Лабораториска_вежба_10_група_A_-_од_дома/1.i: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.i
+
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
+
+Лабораториска_вежба_10_група_A_-_од_дома/1.s: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.s
+
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
+
+Лабораториска_вежба_10_група_A_-_од_дома/2.o: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.o
+
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
+
+Лабораториска_вежба_10_група_A_-_од_дома/2.i: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.i
+
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
+
+Лабораториска_вежба_10_група_A_-_од_дома/2.s: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.s
+
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
+
+Лабораториска_вежба_10_група_A_-_од_дома/3.o: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.o
+
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
+
+Лабораториска_вежба_10_група_A_-_од_дома/3.i: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.i
+
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
+
+Лабораториска_вежба_10_група_A_-_од_дома/3.s: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.s
+
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
+.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
+
 Лабораториска_вежба_3_група_Б_-_од_дома/main1.o: Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.o
 
@@ -1104,6 +1202,8 @@ help:
 	@echo "... z321"
 	@echo "... z322"
 	@echo "... z3226"
+	@echo "... zadaac1z9"
+	@echo "... zadaac1z92"
 	@echo "... zadac13k2"
 	@echo "... zadac5k2"
 	@echo "... zadaca1"
@@ -1175,6 +1275,15 @@ help:
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.o"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.i"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.s"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.o"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.i"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.s"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/2.o"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/2.i"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/2.s"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/3.o"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/3.i"
+	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/3.s"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.o"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.i"
 	@echo "... Лабораториска_вежба_3_група_Б_-_од_дома/main1.s"
