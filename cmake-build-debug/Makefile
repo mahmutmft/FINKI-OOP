@@ -545,6 +545,19 @@ lab2lab2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab2.dir/build.make CMakeFiles/lab2lab2.dir/build
 .PHONY : lab2lab2/fast
 
+#=============================================================================
+# Target rules for targets named lab2lab23
+
+# Build rule for target.
+lab2lab23: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2lab23
+.PHONY : lab2lab23
+
+# fast build rule for target.
+lab2lab23/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/build
+.PHONY : lab2lab23/fast
+
 # target to build an object file
 Exercises_(EN)/1.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1e.dir/build.make "CMakeFiles/ex1e.dir/Exercises_(EN)/1.o"
@@ -921,6 +934,36 @@ testPrograma.s:
 .PHONY : Задачи_за_вежбање_од_лабораториски_вежби/2.s
 
 # target to build an object file
+Задачи_за_вежбање_од_лабораториски_вежби/3.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/3.o
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/3.o
+
+# target to preprocess a source file
+Задачи_за_вежбање_од_лабораториски_вежби/3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/3.i
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/3.i
+
+# target to generate assembly for a file
+Задачи_за_вежбање_од_лабораториски_вежби/3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/3.s
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/3.s
+
+# target to build an object file
+Задачи_за_вежбање_од_лабораториски_вежби/4.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/4.o
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/4.o
+
+# target to preprocess a source file
+Задачи_за_вежбање_од_лабораториски_вежби/4.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/4.i
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/4.i
+
+# target to generate assembly for a file
+Задачи_за_вежбање_од_лабораториски_вежби/4.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab23.dir/build.make CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/4.s
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/4.s
+
+# target to build an object file
 Лабораториска_вежба_10_група_A_-_од_дома/1.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.o
@@ -1070,6 +1113,7 @@ help:
 	@echo "... ex2e"
 	@echo "... lab1lab2"
 	@echo "... lab2lab2"
+	@echo "... lab2lab23"
 	@echo "... labs"
 	@echo "... labs1"
 	@echo "... labs2"
@@ -1174,6 +1218,12 @@ help:
 	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.o"
 	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.i"
 	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.s"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/3.o"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/3.i"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/3.s"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/4.o"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/4.i"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/4.s"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.o"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.i"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/3.o CMakeFiles/lab2lab23.dir/Задачи_за_вежбање_од_лабораториски_вежби/4.o -o lab2lab23 
