@@ -390,6 +390,19 @@ zadaca12/fast:
 .PHONY : zadaca12/fast
 
 #=============================================================================
+# Target rules for targets named zadaca123
+
+# Build rule for target.
+zadaca123: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadaca123
+.PHONY : zadaca123
+
+# fast build rule for target.
+zadaca123/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca123.dir/build.make CMakeFiles/zadaca123.dir/build
+.PHONY : zadaca123/fast
+
+#=============================================================================
 # Target rules for targets named zadac5k2
 
 # Build rule for target.
@@ -480,704 +493,570 @@ zadaac1z92/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/build
 .PHONY : zadaac1z92/fast
 
-testPrograma.o: testPrograma.cpp.o
+#=============================================================================
+# Target rules for targets named ex1e
+
+# Build rule for target.
+ex1e: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1e
+.PHONY : ex1e
+
+# fast build rule for target.
+ex1e/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1e.dir/build.make CMakeFiles/ex1e.dir/build
+.PHONY : ex1e/fast
+
+#=============================================================================
+# Target rules for targets named ex2e
+
+# Build rule for target.
+ex2e: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2e
+.PHONY : ex2e
+
+# fast build rule for target.
+ex2e/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2e.dir/build.make CMakeFiles/ex2e.dir/build
+.PHONY : ex2e/fast
+
+#=============================================================================
+# Target rules for targets named lab1lab2
+
+# Build rule for target.
+lab1lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1lab2
+.PHONY : lab1lab2
+
+# fast build rule for target.
+lab1lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1lab2.dir/build.make CMakeFiles/lab1lab2.dir/build
+.PHONY : lab1lab2/fast
+
+#=============================================================================
+# Target rules for targets named lab2lab2
+
+# Build rule for target.
+lab2lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2lab2
+.PHONY : lab2lab2
+
+# fast build rule for target.
+lab2lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab2.dir/build.make CMakeFiles/lab2lab2.dir/build
+.PHONY : lab2lab2/fast
+
+# target to build an object file
+Exercises_(EN)/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1e.dir/build.make "CMakeFiles/ex1e.dir/Exercises_(EN)/1.o"
+.PHONY : Exercises_(EN)/1.o
+
+# target to preprocess a source file
+Exercises_(EN)/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1e.dir/build.make "CMakeFiles/ex1e.dir/Exercises_(EN)/1.i"
+.PHONY : Exercises_(EN)/1.i
+
+# target to generate assembly for a file
+Exercises_(EN)/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1e.dir/build.make "CMakeFiles/ex1e.dir/Exercises_(EN)/1.s"
+.PHONY : Exercises_(EN)/1.s
+
+# target to build an object file
+Exercises_(EN)/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2e.dir/build.make "CMakeFiles/ex2e.dir/Exercises_(EN)/2.o"
+.PHONY : Exercises_(EN)/2.o
+
+# target to preprocess a source file
+Exercises_(EN)/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2e.dir/build.make "CMakeFiles/ex2e.dir/Exercises_(EN)/2.i"
+.PHONY : Exercises_(EN)/2.i
+
+# target to generate assembly for a file
+Exercises_(EN)/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2e.dir/build.make "CMakeFiles/ex2e.dir/Exercises_(EN)/2.s"
+.PHONY : Exercises_(EN)/2.s
+
+# target to build an object file
+testPrograma.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.o
 .PHONY : testPrograma.o
 
-# target to build an object file
-testPrograma.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.cpp.o
-.PHONY : testPrograma.cpp.o
-
-testPrograma.i: testPrograma.cpp.i
+# target to preprocess a source file
+testPrograma.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.i
 .PHONY : testPrograma.i
 
-# target to preprocess a source file
-testPrograma.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.cpp.i
-.PHONY : testPrograma.cpp.i
-
-testPrograma.s: testPrograma.cpp.s
+# target to generate assembly for a file
+testPrograma.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.s
 .PHONY : testPrograma.s
 
-# target to generate assembly for a file
-testPrograma.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testPrograma.dir/build.make CMakeFiles/testPrograma.dir/testPrograma.cpp.s
-.PHONY : testPrograma.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca12.dir/build.make CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac13k2.dir/build.make CMakeFiles/zadac13k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/13.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca14k2.dir/build.make CMakeFiles/zadaca14k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/14.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca15k2.dir/build.make CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca16k2.dir/build.make CMakeFiles/zadaca16k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/16.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca17.dir/build.make CMakeFiles/zadaca17.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/17.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca1.dir/build.make CMakeFiles/zadaca1.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.cpp.s
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca123.dir/build.make CMakeFiles/zadaca123.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.o
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.o
 
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.o
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca123.dir/build.make CMakeFiles/zadaca123.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.i
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.i
+
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca123.dir/build.make CMakeFiles/zadaca123.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.s
+.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.s
+
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca2.dir/build.make CMakeFiles/zadaca2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadac5k2.dir/build.make CMakeFiles/zadac5k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/5.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca3.dir/build.make CMakeFiles/zadaca3.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/6.cpp.s
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.o: Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.o
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.o
 
-# target to build an object file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.o
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.o
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.i: Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.i
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.i
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.i
-
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.s: Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.s
 .PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaca4.dir/build.make CMakeFiles/zadaca4.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.s
-.PHONY : Задачи_за_вежбање_за_втор_колоквиум_и_испити/8.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/1.o: Задачи_за_вежбање_за_прв_колоквиум/1.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/1.i: Задачи_за_вежбање_за_прв_колоквиум/1.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/1.s: Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1.dir/build.make CMakeFiles/z1.dir/Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/1.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/11.o: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/11.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/11.i: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/11.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/11.s: Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/11.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z3226.dir/build.make CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/12.o: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/12.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/12.i: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/12.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/12.s: Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/12.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z121.dir/build.make CMakeFiles/z121.dir/Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/12.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/13.o: Задачи_за_вежбање_за_прв_колоквиум/13.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/13.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/13.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/13.i: Задачи_за_вежбање_за_прв_колоквиум/13.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/13.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/13.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/13.s: Задачи_за_вежбање_за_прв_колоквиум/13.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/13.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/13.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z1213.dir/build.make CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/13.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/2.o: Задачи_за_вежбање_за_прв_колоквиум/2.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/2.i: Задачи_за_вежбање_за_прв_колоквиум/2.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/2.s: Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z2.dir/build.make CMakeFiles/z2.dir/Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/2.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/3.o: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/3.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/3.i: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/3.s: Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z32.dir/build.make CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/3.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/4.o: Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/4.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/4.i: Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/4.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/4.s: Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/4.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z321.dir/build.make CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s
-
-Задачи_за_вежбање_за_прв_колоквиум/5.o: Задачи_за_вежбање_за_прв_колоквиум/5.cpp.o
+# target to build an object file
+Задачи_за_вежбање_за_прв_колоквиум/5.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.o
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.o
 
-# target to build an object file
-Задачи_за_вежбање_за_прв_колоквиум/5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.cpp.o
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.cpp.o
-
-Задачи_за_вежбање_за_прв_колоквиум/5.i: Задачи_за_вежбање_за_прв_колоквиум/5.cpp.i
+# target to preprocess a source file
+Задачи_за_вежбање_за_прв_колоквиум/5.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.i
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.i
 
-# target to preprocess a source file
-Задачи_за_вежбање_за_прв_колоквиум/5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.cpp.i
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.cpp.i
-
-Задачи_за_вежбање_за_прв_колоквиум/5.s: Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s
+# target to generate assembly for a file
+Задачи_за_вежбање_за_прв_колоквиум/5.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.s
 .PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.s
 
-# target to generate assembly for a file
-Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/z322.dir/build.make CMakeFiles/z322.dir/Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s
-.PHONY : Задачи_за_вежбање_за_прв_колоквиум/5.cpp.s
+# target to build an object file
+Задачи_за_вежбање_од_лабораториски_вежби/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1lab2.dir/build.make CMakeFiles/lab1lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/1.o
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/1.o
 
-Лабораториска_вежба_10_група_A_-_од_дома/1.o: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
+# target to preprocess a source file
+Задачи_за_вежбање_од_лабораториски_вежби/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1lab2.dir/build.make CMakeFiles/lab1lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/1.i
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/1.i
+
+# target to generate assembly for a file
+Задачи_за_вежбање_од_лабораториски_вежби/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1lab2.dir/build.make CMakeFiles/lab1lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/1.s
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/1.s
+
+# target to build an object file
+Задачи_за_вежбање_од_лабораториски_вежби/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab2.dir/build.make CMakeFiles/lab2lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/2.o
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/2.o
+
+# target to preprocess a source file
+Задачи_за_вежбање_од_лабораториски_вежби/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab2.dir/build.make CMakeFiles/lab2lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/2.i
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/2.i
+
+# target to generate assembly for a file
+Задачи_за_вежбање_од_лабораториски_вежби/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2lab2.dir/build.make CMakeFiles/lab2lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/2.s
+.PHONY : Задачи_за_вежбање_од_лабораториски_вежби/2.s
+
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.o
 
-# target to build an object file
-Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
-
-Лабораториска_вежба_10_група_A_-_од_дома/1.i: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.i
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.i
 
-# target to preprocess a source file
-Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
-
-Лабораториска_вежба_10_група_A_-_од_дома/1.s: Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.s
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z9.dir/build.make CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
-
-Лабораториска_вежба_10_група_A_-_од_дома/2.o: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.o
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.o
 
-# target to build an object file
-Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o
-
-Лабораториска_вежба_10_група_A_-_од_дома/2.i: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.i
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.i
 
-# target to preprocess a source file
-Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.i
-
-Лабораториска_вежба_10_група_A_-_од_дома/2.s: Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.s
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.s
-
-Лабораториска_вежба_10_група_A_-_од_дома/3.o: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
+# target to build an object file
+Лабораториска_вежба_10_група_A_-_од_дома/3.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.o
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.o
 
-# target to build an object file
-Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o
-
-Лабораториска_вежба_10_група_A_-_од_дома/3.i: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_10_група_A_-_од_дома/3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.i
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.i
 
-# target to preprocess a source file
-Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.i
-
-Лабораториска_вежба_10_група_A_-_од_дома/3.s: Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_10_група_A_-_од_дома/3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.s
 .PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zadaac1z92.dir/build.make CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
-.PHONY : Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.s
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.o: Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
+# target to build an object file
+Лабораториска_вежба_3_група_Б_-_од_дома/main1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.o
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.o
 
-# target to build an object file
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.i: Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_3_група_Б_-_од_дома/main1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.i
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.i
 
-# target to preprocess a source file
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.i
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.i
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.s: Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_3_група_Б_-_од_дома/main1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.s
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs1.dir/build.make CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.s
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.s
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.o: Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.o
+# target to build an object file
+Лабораториска_вежба_3_група_Б_-_од_дома/main2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.o
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.o
 
-# target to build an object file
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.o
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.o
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.i: Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_3_група_Б_-_од_дома/main2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.i
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.i
 
-# target to preprocess a source file
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.i
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.i
-
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.s: Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_3_група_Б_-_од_дома/main2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.s
 .PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs2.dir/build.make CMakeFiles/labs2.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.s
-.PHONY : Лабораториска_вежба_3_група_Б_-_од_дома/main2.cpp.s
-
-Лабораториска_вежба_8_група_А_-_од_дома/main.o: Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.o
+# target to build an object file
+Лабораториска_вежба_8_група_А_-_од_дома/main.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.o
 .PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.o
 
-# target to build an object file
-Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.o
-.PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.o
-
-Лабораториска_вежба_8_група_А_-_од_дома/main.i: Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_8_група_А_-_од_дома/main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.i
 .PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.i
 
-# target to preprocess a source file
-Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.i
-.PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.i
-
-Лабораториска_вежба_8_група_А_-_од_дома/main.s: Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_8_група_А_-_од_дома/main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.s
 .PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/labs.dir/build.make CMakeFiles/labs.dir/Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.s
-.PHONY : Лабораториска_вежба_8_група_А_-_од_дома/main.cpp.s
-
-Лабораториска_вежба_9_група_Б_-_од_дома/1.o: Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.o
+# target to build an object file
+Лабораториска_вежба_9_група_Б_-_од_дома/1.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.o
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.o
 
-# target to build an object file
-Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.o
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.o
-
-Лабораториска_вежба_9_група_Б_-_од_дома/1.i: Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_9_група_Б_-_од_дома/1.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.i
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.i
 
-# target to preprocess a source file
-Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.i
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.i
-
-Лабораториска_вежба_9_група_Б_-_од_дома/1.s: Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_9_група_Б_-_од_дома/1.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.s
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls1.dir/build.make CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.s
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.s
-
-Лабораториска_вежба_9_група_Б_-_од_дома/2.o: Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.o
+# target to build an object file
+Лабораториска_вежба_9_група_Б_-_од_дома/2.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.o
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.o
 
-# target to build an object file
-Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.o
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.o
-
-Лабораториска_вежба_9_група_Б_-_од_дома/2.i: Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_9_група_Б_-_од_дома/2.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.i
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.i
 
-# target to preprocess a source file
-Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.i
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.i
-
-Лабораториска_вежба_9_група_Б_-_од_дома/2.s: Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.s
+# target to generate assembly for a file
+Лабораториска_вежба_9_група_Б_-_од_дома/2.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.s
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.s
 
-# target to generate assembly for a file
-Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls2.dir/build.make CMakeFiles/ls2.dir/Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.s
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/2.cpp.s
-
-Лабораториска_вежба_9_група_Б_-_од_дома/3.o: Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o
+# target to build an object file
+Лабораториска_вежба_9_група_Б_-_од_дома/3.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.o
 
-# target to build an object file
-Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o
-
-Лабораториска_вежба_9_група_Б_-_од_дома/3.i: Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i
+# target to preprocess a source file
+Лабораториска_вежба_9_група_Б_-_од_дома/3.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.i
 .PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.i
 
-# target to preprocess a source file
-Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i
-
-Лабораториска_вежба_9_група_Б_-_од_дома/3.s: Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.s
-
 # target to generate assembly for a file
-Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s
-.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s
+Лабораториска_вежба_9_група_Б_-_од_дома/3.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ls3.dir/build.make CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.s
+.PHONY : Лабораториска_вежба_9_група_Б_-_од_дома/3.s
 
 # Help Target
 help:
@@ -1187,6 +1066,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ex1e"
+	@echo "... ex2e"
+	@echo "... lab1lab2"
+	@echo "... lab2lab2"
 	@echo "... labs"
 	@echo "... labs1"
 	@echo "... labs2"
@@ -1208,6 +1091,7 @@ help:
 	@echo "... zadac5k2"
 	@echo "... zadaca1"
 	@echo "... zadaca12"
+	@echo "... zadaca123"
 	@echo "... zadaca14k2"
 	@echo "... zadaca15k2"
 	@echo "... zadaca16k2"
@@ -1215,6 +1099,12 @@ help:
 	@echo "... zadaca2"
 	@echo "... zadaca3"
 	@echo "... zadaca4"
+	@echo "... Exercises_(EN)/1.o"
+	@echo "... Exercises_(EN)/1.i"
+	@echo "... Exercises_(EN)/1.s"
+	@echo "... Exercises_(EN)/2.o"
+	@echo "... Exercises_(EN)/2.i"
+	@echo "... Exercises_(EN)/2.s"
 	@echo "... testPrograma.o"
 	@echo "... testPrograma.i"
 	@echo "... testPrograma.s"
@@ -1239,6 +1129,9 @@ help:
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.o"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.i"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/2.s"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.o"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.i"
+	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.s"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.o"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.i"
 	@echo "... Задачи_за_вежбање_за_втор_колоквиум_и_испити/4.s"
@@ -1275,6 +1168,12 @@ help:
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.o"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.i"
 	@echo "... Задачи_за_вежбање_за_прв_колоквиум/5.s"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/1.o"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/1.i"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/1.s"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.o"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.i"
+	@echo "... Задачи_за_вежбање_од_лабораториски_вежби/2.s"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.o"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.i"
 	@echo "... Лабораториска_вежба_10_група_A_-_од_дома/1.s"

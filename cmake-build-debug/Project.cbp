@@ -19,7 +19,7 @@
 			</Target>
 			<Target title="labs">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -41,7 +41,7 @@
 			</Target>
 			<Target title="labs/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,7 +63,7 @@
 			</Target>
 			<Target title="labs1">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,7 +85,7 @@
 			</Target>
 			<Target title="labs1/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -107,7 +107,7 @@
 			</Target>
 			<Target title="labs2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -129,7 +129,7 @@
 			</Target>
 			<Target title="labs2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/labs2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -151,7 +151,7 @@
 			</Target>
 			<Target title="z1">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -173,7 +173,7 @@
 			</Target>
 			<Target title="z1/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -195,7 +195,7 @@
 			</Target>
 			<Target title="z2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -217,7 +217,7 @@
 			</Target>
 			<Target title="z2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -239,7 +239,7 @@
 			</Target>
 			<Target title="z32">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z32" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -261,7 +261,7 @@
 			</Target>
 			<Target title="z32/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z32" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -283,7 +283,7 @@
 			</Target>
 			<Target title="z321">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z321" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -305,7 +305,7 @@
 			</Target>
 			<Target title="z321/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z321" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -327,7 +327,7 @@
 			</Target>
 			<Target title="z322">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z322" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -349,7 +349,7 @@
 			</Target>
 			<Target title="z322/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z322" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -371,7 +371,7 @@
 			</Target>
 			<Target title="z3226">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z3226" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -393,7 +393,7 @@
 			</Target>
 			<Target title="z3226/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z3226" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -415,7 +415,7 @@
 			</Target>
 			<Target title="z121">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z121" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -437,7 +437,7 @@
 			</Target>
 			<Target title="z121/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z121" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -459,7 +459,7 @@
 			</Target>
 			<Target title="z1213">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z1213" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -481,7 +481,7 @@
 			</Target>
 			<Target title="z1213/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/z1213" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -503,7 +503,7 @@
 			</Target>
 			<Target title="ls1">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -525,7 +525,7 @@
 			</Target>
 			<Target title="ls1/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -547,7 +547,7 @@
 			</Target>
 			<Target title="ls2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -569,7 +569,7 @@
 			</Target>
 			<Target title="ls2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -591,7 +591,7 @@
 			</Target>
 			<Target title="ls3">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -613,7 +613,7 @@
 			</Target>
 			<Target title="ls3/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ls3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -635,7 +635,7 @@
 			</Target>
 			<Target title="zadaca1">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -657,7 +657,7 @@
 			</Target>
 			<Target title="zadaca1/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -679,7 +679,7 @@
 			</Target>
 			<Target title="zadaca2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -701,7 +701,7 @@
 			</Target>
 			<Target title="zadaca2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -723,7 +723,7 @@
 			</Target>
 			<Target title="zadaca3">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -745,7 +745,7 @@
 			</Target>
 			<Target title="zadaca3/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -767,7 +767,7 @@
 			</Target>
 			<Target title="zadaca4">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -789,7 +789,7 @@
 			</Target>
 			<Target title="zadaca4/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -811,7 +811,7 @@
 			</Target>
 			<Target title="zadaca17">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca17" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -833,7 +833,7 @@
 			</Target>
 			<Target title="zadaca17/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca17" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -855,7 +855,7 @@
 			</Target>
 			<Target title="testPrograma">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/testPrograma" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -877,7 +877,7 @@
 			</Target>
 			<Target title="testPrograma/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/testPrograma" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -899,7 +899,7 @@
 			</Target>
 			<Target title="zadaca12">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca12" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -921,7 +921,7 @@
 			</Target>
 			<Target title="zadaca12/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca12" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -941,9 +941,53 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="zadaca123">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca123" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadaca123"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zadaca123/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca123" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadaca123/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="zadac5k2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac5k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -965,7 +1009,7 @@
 			</Target>
 			<Target title="zadac5k2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac5k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -987,7 +1031,7 @@
 			</Target>
 			<Target title="zadac13k2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac13k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1009,7 +1053,7 @@
 			</Target>
 			<Target title="zadac13k2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadac13k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1031,7 +1075,7 @@
 			</Target>
 			<Target title="zadaca14k2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca14k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1053,7 +1097,7 @@
 			</Target>
 			<Target title="zadaca14k2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca14k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1075,7 +1119,7 @@
 			</Target>
 			<Target title="zadaca15k2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca15k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1097,7 +1141,7 @@
 			</Target>
 			<Target title="zadaca15k2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca15k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1119,7 +1163,7 @@
 			</Target>
 			<Target title="zadaca16k2">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca16k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1141,7 +1185,7 @@
 			</Target>
 			<Target title="zadaca16k2/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaca16k2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1163,7 +1207,7 @@
 			</Target>
 			<Target title="zadaac1z9">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaac1z9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1185,7 +1229,7 @@
 			</Target>
 			<Target title="zadaac1z9/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaac1z9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1207,7 +1251,7 @@
 			</Target>
 			<Target title="zadaac1z92">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaac1z92" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1229,7 +1273,7 @@
 			</Target>
 			<Target title="zadaac1z92/fast">
 				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/zadaac1z92" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1244,6 +1288,182 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 zadaac1z92/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1e">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ex1e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1e"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1e/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ex1e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1e/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2e">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ex2e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2e"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2e/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/ex2e" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2e/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab1lab2">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/lab1lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1lab2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab1lab2/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/lab1lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab1lab2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab2lab2">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/lab2lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2lab2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab2lab2/fast">
+				<Option output="/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/lab2lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2lab2/fast"/>
 					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1270,6 +1490,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Exercises (EN)/1.cpp">
+			<Option target="ex1e"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Exercises (EN)/2.cpp">
+			<Option target="ex2e"/>
+		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp">
 			<Option target="testPrograma"/>
 		</Unit>
@@ -1293,6 +1519,9 @@
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/2.cpp">
 			<Option target="zadaca1"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/3.cpp">
+			<Option target="zadaca123"/>
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/4.cpp">
 			<Option target="zadaca2"/>
@@ -1329,6 +1558,12 @@
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/5.cpp">
 			<Option target="z322"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање од лабораториски вежби/1.cpp">
+			<Option target="lab1lab2"/>
+		</Unit>
+		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање од лабораториски вежби/2.cpp">
+			<Option target="lab2lab2"/>
 		</Unit>
 		<Unit filename="/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp">
 			<Option target="zadaac1z9"/>

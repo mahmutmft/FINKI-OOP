@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic "CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.cpp.o" -o ls1 
+/usr/bin/c++ -g -rdynamic "CMakeFiles/ls1.dir/Лабораториска_вежба_9_група_Б_-_од_дома/1.o" -o ls1 

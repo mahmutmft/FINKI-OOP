@@ -69,28 +69,28 @@ include CMakeFiles/ls3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ls3.dir/flags.make
 
-CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o: CMakeFiles/ls3.dir/flags.make
-CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска\ вежба\ 9\ група\ Б\ -\ од\ дома/3.cpp
-CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o: CMakeFiles/ls3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o -MF CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o.d -o CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp"
+CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o: CMakeFiles/ls3.dir/flags.make
+CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o: /home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска\ вежба\ 9\ група\ Б\ -\ од\ дома/3.cpp
+CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o: CMakeFiles/ls3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o -MF CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o.d -o CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp"
 
-CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp" > CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.i
+CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp" > CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.i
 
-CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp" -o CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.s
+CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 9 група Б - од дома/3.cpp" -o CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.s
 
 # Object files for target ls3
 ls3_OBJECTS = \
-"CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o"
+"CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o"
 
 # External object files for target ls3
 ls3_EXTERNAL_OBJECTS =
 
-ls3: CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.cpp.o
+ls3: CMakeFiles/ls3.dir/Лабораториска_вежба_9_група_Б_-_од_дома/3.o
 ls3: CMakeFiles/ls3.dir/build.make
 ls3: CMakeFiles/ls3.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ls3"

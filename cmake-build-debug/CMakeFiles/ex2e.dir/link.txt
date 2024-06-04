@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic "CMakeFiles/ex2e.dir/Exercises_(EN)/2.o" -o ex2e 

@@ -69,28 +69,28 @@ include CMakeFiles/z321.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/z321.dir/flags.make
 
-CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o: CMakeFiles/z321.dir/flags.make
-CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/4.cpp
-CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o: CMakeFiles/z321.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o -MF CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o.d -o CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp"
+CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o: CMakeFiles/z321.dir/flags.make
+CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/4.cpp
+CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o: CMakeFiles/z321.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o -MF CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o.d -o CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp"
 
-CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" > CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.i
+CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" > CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.i
 
-CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" -o CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.s
+CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" -o CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.s
 
 # Object files for target z321
 z321_OBJECTS = \
-"CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o"
+"CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o"
 
 # External object files for target z321
 z321_EXTERNAL_OBJECTS =
 
-z321: CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o
+z321: CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o
 z321: CMakeFiles/z321.dir/build.make
 z321: CMakeFiles/z321.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable z321"

@@ -69,28 +69,28 @@ include CMakeFiles/zadaca15k2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zadaca15k2.dir/flags.make
 
-CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o: CMakeFiles/zadaca15k2.dir/flags.make
-CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ втор\ колоквиум\ и\ испити/15.cpp
-CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o: CMakeFiles/zadaca15k2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o -MF CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o.d -o CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp"
+CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o: CMakeFiles/zadaca15k2.dir/flags.make
+CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ втор\ колоквиум\ и\ испити/15.cpp
+CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o: CMakeFiles/zadaca15k2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o -MF CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o.d -o CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp"
 
-CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp" > CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.i
+CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp" > CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.i
 
-CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp" -o CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.s
+CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за втор колоквиум и испити/15.cpp" -o CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.s
 
 # Object files for target zadaca15k2
 zadaca15k2_OBJECTS = \
-"CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o"
+"CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o"
 
 # External object files for target zadaca15k2
 zadaca15k2_EXTERNAL_OBJECTS =
 
-zadaca15k2: CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o
+zadaca15k2: CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o
 zadaca15k2: CMakeFiles/zadaca15k2.dir/build.make
 zadaca15k2: CMakeFiles/zadaca15k2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zadaca15k2"

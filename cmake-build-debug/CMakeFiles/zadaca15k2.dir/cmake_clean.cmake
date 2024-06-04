@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o"
-  "CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.cpp.o.d"
+  "CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o"
+  "CMakeFiles/zadaca15k2.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/15.o.d"
   "zadaca15k2"
   "zadaca15k2.pdb"
 )

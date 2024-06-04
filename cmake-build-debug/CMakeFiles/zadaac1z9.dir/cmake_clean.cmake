@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o"
-  "CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o.d"
+  "CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o"
+  "CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o.d"
   "zadaac1z9"
   "zadaac1z9.pdb"
 )

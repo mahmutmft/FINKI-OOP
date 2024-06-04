@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.cpp.o -o zadaca12 
+/usr/bin/c++ -g -rdynamic CMakeFiles/zadaca12.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/1.o -o zadaca12 

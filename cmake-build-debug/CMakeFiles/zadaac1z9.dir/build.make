@@ -69,28 +69,28 @@ include CMakeFiles/zadaac1z9.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zadaac1z9.dir/flags.make
 
-CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o: CMakeFiles/zadaac1z9.dir/flags.make
-CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска\ вежба\ 10\ група\ A\ -\ од\ дома/1.cpp
-CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o: CMakeFiles/zadaac1z9.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o -MF CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o.d -o CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp"
+CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o: CMakeFiles/zadaac1z9.dir/flags.make
+CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o: /home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска\ вежба\ 10\ група\ A\ -\ од\ дома/1.cpp
+CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o: CMakeFiles/zadaac1z9.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o -MF CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o.d -o CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp"
 
-CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp" > CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.i
+CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp" > CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.i
 
-CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp" -o CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.s
+CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Лабораториска вежба 10 група A - од дома/1.cpp" -o CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.s
 
 # Object files for target zadaac1z9
 zadaac1z9_OBJECTS = \
-"CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o"
+"CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o"
 
 # External object files for target zadaac1z9
 zadaac1z9_EXTERNAL_OBJECTS =
 
-zadaac1z9: CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.cpp.o
+zadaac1z9: CMakeFiles/zadaac1z9.dir/Лабораториска_вежба_10_група_A_-_од_дома/1.o
 zadaac1z9: CMakeFiles/zadaac1z9.dir/build.make
 zadaac1z9: CMakeFiles/zadaac1z9.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zadaac1z9"

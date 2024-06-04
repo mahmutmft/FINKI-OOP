@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.cpp.o -o z1213 
+/usr/bin/c++ -g -rdynamic CMakeFiles/z1213.dir/Задачи_за_вежбање_за_прв_колоквиум/13.o -o z1213 

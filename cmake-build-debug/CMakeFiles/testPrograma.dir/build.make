@@ -69,28 +69,28 @@ include CMakeFiles/testPrograma.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testPrograma.dir/flags.make
 
-CMakeFiles/testPrograma.dir/testPrograma.cpp.o: CMakeFiles/testPrograma.dir/flags.make
-CMakeFiles/testPrograma.dir/testPrograma.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp
-CMakeFiles/testPrograma.dir/testPrograma.cpp.o: CMakeFiles/testPrograma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testPrograma.dir/testPrograma.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testPrograma.dir/testPrograma.cpp.o -MF CMakeFiles/testPrograma.dir/testPrograma.cpp.o.d -o CMakeFiles/testPrograma.dir/testPrograma.cpp.o -c /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp
+CMakeFiles/testPrograma.dir/testPrograma.o: CMakeFiles/testPrograma.dir/flags.make
+CMakeFiles/testPrograma.dir/testPrograma.o: /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp
+CMakeFiles/testPrograma.dir/testPrograma.o: CMakeFiles/testPrograma.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testPrograma.dir/testPrograma.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testPrograma.dir/testPrograma.o -MF CMakeFiles/testPrograma.dir/testPrograma.o.d -o CMakeFiles/testPrograma.dir/testPrograma.o -c /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp
 
-CMakeFiles/testPrograma.dir/testPrograma.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testPrograma.dir/testPrograma.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp > CMakeFiles/testPrograma.dir/testPrograma.cpp.i
+CMakeFiles/testPrograma.dir/testPrograma.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testPrograma.dir/testPrograma.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp > CMakeFiles/testPrograma.dir/testPrograma.i
 
-CMakeFiles/testPrograma.dir/testPrograma.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testPrograma.dir/testPrograma.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp -o CMakeFiles/testPrograma.dir/testPrograma.cpp.s
+CMakeFiles/testPrograma.dir/testPrograma.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testPrograma.dir/testPrograma.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miftarosky/CLionProjects/FINKI-OOP/testPrograma.cpp -o CMakeFiles/testPrograma.dir/testPrograma.s
 
 # Object files for target testPrograma
 testPrograma_OBJECTS = \
-"CMakeFiles/testPrograma.dir/testPrograma.cpp.o"
+"CMakeFiles/testPrograma.dir/testPrograma.o"
 
 # External object files for target testPrograma
 testPrograma_EXTERNAL_OBJECTS =
 
-testPrograma: CMakeFiles/testPrograma.dir/testPrograma.cpp.o
+testPrograma: CMakeFiles/testPrograma.dir/testPrograma.o
 testPrograma: CMakeFiles/testPrograma.dir/build.make
 testPrograma: CMakeFiles/testPrograma.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable testPrograma"

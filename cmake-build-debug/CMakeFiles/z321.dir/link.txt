@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o -o z321 
+/usr/bin/c++ -g -rdynamic CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o -o z321 

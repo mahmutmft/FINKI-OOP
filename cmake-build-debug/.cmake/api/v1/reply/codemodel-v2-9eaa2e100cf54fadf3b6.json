@@ -1,0 +1,344 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex1e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex1e-Debug-815108b6a2f942688c1a.json",
+					"name" : "ex1e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex2e::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex2e-Debug-b3f10fd92df6774c5f4d.json",
+					"name" : "ex2e",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab1lab2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab1lab2-Debug-38b9ab32167ff341a699.json",
+					"name" : "lab1lab2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab2lab2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab2lab2-Debug-172bb27dddc1440d89ff.json",
+					"name" : "lab2lab2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs-Debug-dce0df706fb77bee937f.json",
+					"name" : "labs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs1-Debug-cf624ec3f63f26ade5ca.json",
+					"name" : "labs1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs2-Debug-1583293a0e03f98e1c37.json",
+					"name" : "labs2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ls1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ls1-Debug-528f1bd0206af22e513f.json",
+					"name" : "ls1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ls2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ls2-Debug-9fe8ab9a94ebf209a1bc.json",
+					"name" : "ls2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ls3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ls3-Debug-b539e1b00f37282fbdda.json",
+					"name" : "ls3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testPrograma::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testPrograma-Debug-33fa1c3794a9354a8a7e.json",
+					"name" : "testPrograma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z1-Debug-934e41b1124aee39577d.json",
+					"name" : "z1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z121::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z121-Debug-ce2c13ece48299c40ba6.json",
+					"name" : "z121",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z1213::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z1213-Debug-4d8e17a1185893083d51.json",
+					"name" : "z1213",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z2-Debug-c9461b4a3707f479f039.json",
+					"name" : "z2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z32::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z32-Debug-23df3f81d536ecc12981.json",
+					"name" : "z32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z321::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z321-Debug-2b7c21b9d073acd848bf.json",
+					"name" : "z321",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z322::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z322-Debug-6be14c723260069cd088.json",
+					"name" : "z322",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "z3226::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-z3226-Debug-f68aaaecb149b74c2aa7.json",
+					"name" : "z3226",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaac1z9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaac1z9-Debug-f1bd4bf0c2e938e8c18d.json",
+					"name" : "zadaac1z9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaac1z92::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaac1z92-Debug-9b1b399b863e0316fd93.json",
+					"name" : "zadaac1z92",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadac13k2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadac13k2-Debug-05859a54b8d5ce1f6cd8.json",
+					"name" : "zadac13k2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadac5k2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadac5k2-Debug-acd352985a2f178b82ee.json",
+					"name" : "zadac5k2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca1-Debug-e6c93587598d4edca5d4.json",
+					"name" : "zadaca1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca12-Debug-de06e2f6eb35fe0f55c5.json",
+					"name" : "zadaca12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca123::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca123-Debug-372245834858e94ca908.json",
+					"name" : "zadaca123",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca14k2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca14k2-Debug-35de98e21c057f32cb39.json",
+					"name" : "zadaca14k2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca15k2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca15k2-Debug-50e19dd5c91c47802c08.json",
+					"name" : "zadaca15k2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca16k2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca16k2-Debug-ffaf1e9e6e9e2a925206.json",
+					"name" : "zadaca16k2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca17::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca17-Debug-09fca9c1e1b919b7731d.json",
+					"name" : "zadaca17",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca2-Debug-a6af572664e588b735a9.json",
+					"name" : "zadaca2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca3-Debug-fcc7f5c4374fab87bea3.json",
+					"name" : "zadaca3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadaca4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadaca4-Debug-c81e3bec4f9515713bbd.json",
+					"name" : "zadaca4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug",
+		"source" : "/home/miftarosky/CLionProjects/FINKI-OOP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

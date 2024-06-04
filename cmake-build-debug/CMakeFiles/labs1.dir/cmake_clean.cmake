@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o"
-  "CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.cpp.o.d"
+  "CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.o"
+  "CMakeFiles/labs1.dir/Лабораториска_вежба_3_група_Б_-_од_дома/main1.o.d"
   "labs1"
   "labs1.pdb"
 )

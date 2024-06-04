@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" "CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o" "gcc" "CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.cpp.o.d"
+  "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/4.cpp" "CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o" "gcc" "CMakeFiles/z321.dir/Задачи_за_вежбање_за_прв_колоквиум/4.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o"
-  "CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.cpp.o.d"
+  "CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.o"
+  "CMakeFiles/z32.dir/Задачи_за_вежбање_за_прв_колоквиум/3.o.d"
   "z32"
   "z32.pdb"
 )

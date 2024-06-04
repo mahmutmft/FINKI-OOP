@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/zadaca123.dir/Задачи_за_вежбање_за_втор_колоквиум_и_испити/3.o -o zadaca123 

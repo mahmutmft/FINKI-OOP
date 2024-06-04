@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/lab1lab2.dir/Задачи_за_вежбање_од_лабораториски_вежби/1.o -o lab1lab2 

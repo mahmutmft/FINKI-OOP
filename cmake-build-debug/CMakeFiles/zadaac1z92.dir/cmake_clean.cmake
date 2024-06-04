@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o"
-  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.cpp.o.d"
-  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o"
-  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.cpp.o.d"
+  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.o"
+  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/2.o.d"
+  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.o"
+  "CMakeFiles/zadaac1z92.dir/Лабораториска_вежба_10_група_A_-_од_дома/3.o.d"
   "zadaac1z92"
   "zadaac1z92.pdb"
 )

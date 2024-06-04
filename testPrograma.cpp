@@ -1,135 +1,130 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
-class Vozac {
-protected:
-    string ime;
-    int vozrast;
-    int brojTrki;
-    bool isVeteran;
-public:
-    Vozac(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false) {
-        this->ime = ime;
-        this->vozrast = vozrast;
-        this->brojTrki = brojTrki;
-        this->isVeteran = isVeteran;
-    }
-
-    virtual float zarabotuvachka() const = 0;
-
-    virtual float danok() const = 0;
-
-    bool operator==(const Vozac &p) const {
-        return this->zarabotuvachka() == p.zarabotuvachka();
-    }
-
-    friend ostream &operator<<(ostream &o, const Vozac &p) {
-        o << p.ime << endl;
-        o << p.vozrast << endl;
-        o << p.brojTrki << endl;
-        if (p.isVeteran) {
-            o << "VETERAN" << endl;
-        }
-        return o;
-    }
+class Book{
 };
 
-class Avtomobilist : public Vozac {
-protected:
-    float cenaNaAvtomobil;
-public:
-    Avtomobilist(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false,
-                 float cenaNaAvtomobil = 0)
-            : Vozac(ime, vozrast, brojTrki, isVeteran) {
-        this->cenaNaAvtomobil = cenaNaAvtomobil;
-    }
+int main(){
 
-    float zarabotuvachka() const{
-        return cenaNaAvtomobil / 5;
-    }
+    char isbn[20], title[50], author[30], url[100];
+    int size, tip;
+    float price, weight;
+    bool inStock;
+    Book  **books;
+    int n;
 
-    float danok() const{
-        if(brojTrki > 10){
-            return zarabotuvachka() * 0.15;
+    int testCase;
+    cin >> testCase;
+
+    if (testCase == 1){
+        cout << "====== Testing OnlineBook class ======" << endl;
+        cin >> n;
+        books = new Book *[n];
+
+        for (int i = 0; i < n; i++){
+            cin >> isbn;
+            cin.get();
+            cin.getline(title, 50);
+            cin.getline(author, 30);
+            cin >> price;
+            cin >> url;
+            cin >> size;
+            cout << "CONSTRUCTOR" << endl;
+            books[i] = new OnlineBook(isbn, title, author, price, url, size);
+            cout << "OPERATOR <<" << endl;
+            cout << *books[i];
         }
-        else{
-            return zarabotuvachka() * 0.1;
+        cout << "OPERATOR >" << endl;
+        cout << "Rezultat od sporedbata e: " << endl;
+        if (*books[0] > *books[1])
+            cout << *books[0];
+        else
+            cout << *books[1];
+    }
+    if (testCase == 2){
+        cout << "====== Testing OnlineBook CONSTRUCTORS ======" << endl;
+        cin >> isbn;
+        cin.get();
+        cin.getline(title, 50);
+        cin.getline(author, 30);
+        cin >> price;
+        cin >> url;
+        cin >> size;
+        cout << "CONSTRUCTOR" << endl;
+        OnlineBook ob1(isbn, title, author, price, url, size);
+        cout << ob1 << endl;
+        cout << "COPY CONSTRUCTOR" << endl;
+        OnlineBook ob2(ob1);
+        cin >> isbn;
+        ob2.setISBN(isbn);
+        cout << ob1 << endl;
+        cout << ob2 << endl;
+        cout << "OPERATOR =" << endl;
+        ob1 = ob2;
+        cin >> isbn;
+        ob2.setISBN(isbn);
+        cout << ob1 << endl;
+        cout << ob2 << endl;
+    }
+    if (testCase == 3){
+        cout << "====== Testing PrintBook class ======" << endl;
+        cin >> n;
+        books = new Book *[n];
+
+        for (int i = 0; i < n; i++){
+            cin >> isbn;
+            cin.get();
+            cin.getline(title, 50);
+            cin.getline(author, 30);
+            cin >> price;
+            cin >> weight;
+            cin >> inStock;
+            cout << "CONSTRUCTOR" << endl;
+            books[i] = new PrintBook(isbn, title, author, price, weight, inStock);
+            cout << "OPERATOR <<" << endl;
+            cout << *books[i];
         }
+        cout << "OPERATOR >" << endl;
+        cout << "Rezultat od sporedbata e: " << endl;
+        if (*books[0] > *books[1])
+            cout << *books[0];
+        else
+            cout << *books[1];
     }
-};
+    if (testCase == 4){
+        cout << "====== Testing method mostExpensiveBook() ======" << endl;
+        cin >> n;
+        books = new Book *[n];
 
-class Motociklist : public Vozac {
-protected:
-    int hp;
-public:
-    Motociklist(const string ime = " ", int vozrast = 0, int brojTrki = 0, bool isVeteran = false, int hp = 0)
-            : Vozac(ime, vozrast, brojTrki, isVeteran) {
-        this->hp = hp;
-    }
+        for (int i = 0; i<n; i++){
 
-    float zarabotuvachka() const {
-        return hp * 20;
-    }
+            cin >> tip >> isbn;
+            cin.get();
+            cin.getline(title, 50);
+            cin.getline(author, 30);
+            cin >> price;
+            if (tip == 1) {
 
-    float danok() const {
+                cin >> url;
+                cin >> size;
 
-        if(isVeteran){
-            return zarabotuvachka() * 0.25;
+                books[i] = new OnlineBook(isbn, title, author, price, url, size);
+
+            }
+            else {
+                cin >> weight;
+                cin >> inStock;
+
+                books[i] = new PrintBook(isbn, title, author, price, weight, inStock);
+            }
         }
-        else{
-            return zarabotuvachka() * 0.2;
-        }
-    }
-};
 
-int soIstaZarabotuvachka(Vozac **vozaci, int broj, Vozac *vozac){
-    int index = 0;
-    for(int i=0;i<broj;i++){
-        if(*vozaci[i] == *vozac){
-            index++;
-        }
+        mostExpensiveBook(books, n);
     }
-    return index;
-}
 
-int main() {
-    int n, x;
-    cin >> n >> x;
-    Vozac **v = new Vozac *[n];
-    char ime[100];
-    int vozrast;
-    int trki;
-    bool vet;
-    for (int i = 0; i < n; ++i) {
-        cin >> ime >> vozrast >> trki >> vet;
-        if (i < x) {
-            float cena_avto;
-            cin >> cena_avto;
-            v[i] = new Avtomobilist(ime, vozrast, trki, vet, cena_avto);
-        } else {
-            int mokjnost;
-            cin >> mokjnost;
-            v[i] = new Motociklist(ime, vozrast, trki, vet, mokjnost);
-        }
-    }
-    cout << "=== DANOK ===" << endl;
-    for (int i = 0; i < n; ++i) {
-        cout << *v[i];
-        cout << v[i]->danok() << endl;
-    }
-    cin >> ime >> vozrast >> trki >> vet;
-    int mokjnost;
-    cin >> mokjnost;
-    Vozac *vx = new Motociklist(ime, vozrast, trki, vet, mokjnost);
-    cout << "=== VOZAC X ===" << endl;
-    cout << *vx;
-    cout << "=== SO ISTA ZARABOTUVACKA KAKO VOZAC X ===" << endl;
-    cout << soIstaZarabotuvachka(v, n, vx);
-    for (int i = 0; i < n; ++i) {
-        delete v[i];
-    }
-    delete[] v;
-    delete vx;
+    for (int i = 0; i<n; i++) delete books[i];
+    delete[] books;
     return 0;
 }

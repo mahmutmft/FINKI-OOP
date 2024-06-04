@@ -69,28 +69,28 @@ include CMakeFiles/z3226.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/z3226.dir/flags.make
 
-CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o: CMakeFiles/z3226.dir/flags.make
-CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/11.cpp
-CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o: CMakeFiles/z3226.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o -MF CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o.d -o CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp"
+CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o: CMakeFiles/z3226.dir/flags.make
+CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o: /home/miftarosky/CLionProjects/FINKI-OOP/Задачи\ за\ вежбање\ за\ прв\ колоквиум/11.cpp
+CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o: CMakeFiles/z3226.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o -MF CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o.d -o CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o -c "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp"
 
-CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp" > CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.i
+CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp" > CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.i
 
-CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp" -o CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.s
+CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/miftarosky/CLionProjects/FINKI-OOP/Задачи за вежбање за прв колоквиум/11.cpp" -o CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.s
 
 # Object files for target z3226
 z3226_OBJECTS = \
-"CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o"
+"CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o"
 
 # External object files for target z3226
 z3226_EXTERNAL_OBJECTS =
 
-z3226: CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.cpp.o
+z3226: CMakeFiles/z3226.dir/Задачи_за_вежбање_за_прв_колоквиум/11.o
 z3226: CMakeFiles/z3226.dir/build.make
 z3226: CMakeFiles/z3226.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/miftarosky/CLionProjects/FINKI-OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable z3226"
